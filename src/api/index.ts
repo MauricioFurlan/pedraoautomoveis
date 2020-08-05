@@ -19,7 +19,7 @@ interface ObjectToDelete {
 
 const URL = window.location.hostname.includes('localhost')
   ? 'http://localhost:8080'
-  : 'https://pedraoautomoveis.herokuapp.com/categorias';
+  : 'https://pedraoautomoveis.herokuapp.com';
 
 export const getAllCategoriesAsync = async () => {
   const crudeResponse = await fetch(`${URL}/categories`);
