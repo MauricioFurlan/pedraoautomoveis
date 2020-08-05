@@ -20,7 +20,7 @@ interface ObjectToDelete {
 const URL = window.location.hostname.includes('localhost')
   ? 'http://localhost:8080'
   : 'https://pedraoautomoveis.herokuapp.com';
-
+  // https://notflix-fakend.herokuapp.com
 export const getAllCategoriesAsync = async () => {
   const crudeResponse = await fetch(`${URL}/categories`);
   const response = await crudeResponse.json();
