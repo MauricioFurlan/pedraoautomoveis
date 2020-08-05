@@ -1,0 +1,86 @@
+{
+  "categories": [
+    {
+      "title": "Ofertas",
+      "id": 1
+    },
+    {
+      "title": "Estoque",
+      "id": 2
+    }
+  ],
+  "videos": [
+    {
+      "title": "Pedrão Automóveis",
+      "url": "https://www.youtube.com/watch?v=-r6SWQLrPDY",
+      "categoryId": 1,
+      "id": 1
+    },
+    {
+      "title": "Vende-se",
+      "url": "https://www.youtube.com/watch?v=9X0sueSxEsg",
+      "categoryId": 2,
+      "id": 2
+    },
+    {
+      "title": "Cars",
+      "url": "https://www.youtube.com/watch?v=Cpq2pkrVncA",
+      "categoryId": 1,
+      "id": 3
+    },
+    {
+      "title": "Top",
+      "url": "https://www.youtube.com/watch?v=Fl6FOI_rqmg",
+      "categoryId": 1,
+      "id": 4
+    },
+    {
+      "title": "Legal",
+      "url": "https://www.youtube.com/watch?v=r6_x3D1zV9A",
+      "categoryId": 2,
+      "id": 5
+    },
+    {
+      "title": "Topzera",
+      "url": "https://www.youtube.com/watch?v=kv0iYUeprww",
+      "categoryId": 1,
+      "id": 6
+    },
+    {
+      "title": "Videos",
+      "url": "https://www.youtube.com/watch?v=KbFdgSEio9Y",
+      "categoryId": 2,
+      "id": 7
+    },
+    {
+      "title": "Carrão",
+      "url": "https://www.youtube.com/watch?v=kHbfdbeCqJs",
+      "categoryId": 1,
+      "id": 8
+    },
+    {
+      "title": "Golf",
+      "url": "https://www.youtube.com/watch?v=yBv4GUI9wf0",
+      "categoryId": 1,
+      "id": 9
+    },
+    {
+      "title": "Partiu?",
+      "url": "https://www.youtube.com/watch?v=ZpdfAWohZhg",
+      "categoryId": 1,
+      "id": 11
+    },
+    {
+      "title": "Carros caros",
+      "url": "https://www.youtube.com/watch?v=tvSdjP-Z19M",
+      "categoryId": 2,
+      "id": 12
+    },
+    {
+      "title": "Carros",
+      "url": "https://www.youtube.com/watch?v=BBio2gyb-Ys",
+      "categoryId": 1,
+      "id": 13
+    }
+  ]
+}
