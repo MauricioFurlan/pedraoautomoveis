@@ -46,13 +46,21 @@ export const LogoLink = styled(Link)`
 `;
 
 export const Logo = styled.img`
-  max-width: 168px;
+max-width: 168px;
   /* filter: invert(11%) sepia(99%) saturate(6349%) hue-rotate(354deg)
-    brightness(90%) contrast(99%);
-
+    brightness(90%) contrast(99%); */
   @media (max-width: 800px) {
     max-width: 105px;
-  } */
+    transform: scale(0.75);
+    display:flex;
+    justify-content: start;
+    
+    &:hover {
+    &:focus {
+      opacity: 0.5;
+    }
+    }
+  }
 `;
 
 export const Button = styled(Link)`
@@ -77,10 +85,11 @@ export const Button = styled(Link)`
 
   @media (max-width: 800px) {
     position: fixed;
+    color: var(--gray);
     left: 0;
     right: 0;
     bottom: 0;
-    background: var(--primary);
+    background: var(--blue);
     border-radius: 0;
     border: 0;
     text-align: center;
