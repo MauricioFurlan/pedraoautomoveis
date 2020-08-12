@@ -47,13 +47,10 @@ export const LogoLink = styled(Link)`
 
 export const Logo = styled.img`
 max-width: 168px;
-  /* filter: invert(11%) sepia(99%) saturate(6349%) hue-rotate(354deg)
-    brightness(90%) contrast(99%); */
+   filter: hue-rotate(354deg) brightness(90%) contrast(99%);
   @media (max-width: 800px) {
-    max-width: 8.5rem;
+    max-width: 8.2rem;
     transform: scale(0.75);
-    display:flex;
-    justify-content: start;
     
     &:hover {
     &:focus {

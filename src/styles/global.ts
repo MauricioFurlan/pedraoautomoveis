@@ -1,5 +1,5 @@
 import styled, { createGlobalStyle } from 'styled-components';
-import bgForm from '../assets/logo.png';
+import bgForm from '../assets/logo.svg';
 
 export default createGlobalStyle`
 * {
