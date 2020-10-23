@@ -11,7 +11,7 @@ interface iVideos {
   title: string;
   url: string;
   description: string;
-  fotos: List;
+  fotos: [];
   preco: string;
 }
 

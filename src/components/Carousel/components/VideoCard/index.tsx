@@ -13,7 +13,7 @@ const VideoCard = ({
   videoDescrition,
   videoPreco,
 }: {
-  videoFotos: List;
+  videoFotos: [];
   videoTitle: string;
   videoURL: string;
   videoDescrition: string;
