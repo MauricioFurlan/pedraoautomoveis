@@ -49,7 +49,7 @@ const whatsMsg = `https://api.whatsapp.com/send?1=pt_BR&phone=5519994229146&text
     <>
     
       <VideoCardContainer
-        url={img1[1]}
+        url={"oi"}
         title={videoTitle}
         onClick={() => setModalIsOpen(!modalIsOpen)}
       >
