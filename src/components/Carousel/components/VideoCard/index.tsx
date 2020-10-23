@@ -60,7 +60,7 @@ const whatsMsg = `https://api.whatsapp.com/send?1=pt_BR&phone=5519994229146&text
           <ModalContent>
             <span onClick={() => setModalIsOpen(!modalIsOpen)}>&#10060;</span>
         <main>
-            <article class="teacher-item">
+            <article className="teacher-item">
               
                 <header>
                     <img 
@@ -80,7 +80,7 @@ const whatsMsg = `https://api.whatsapp.com/send?1=pt_BR&phone=5519994229146&text
                 <footer>
                     <p><strong>R${videoPreco}</strong>
                     </p>
-                    <a href={whatsMsg} class="button" target="_blank">
+                    <a href={whatsMsg} className="button" target="_blank">
                     <img src={whats} alt="WhatsApp" /> Entrar em contato
                     </a>
                 </footer>

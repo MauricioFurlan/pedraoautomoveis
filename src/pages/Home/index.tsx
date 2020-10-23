@@ -12,6 +12,10 @@ const Home = () => {
     categoryId: number;
     title: string;
     url: string;
+    description: string;
+    fotos: [];
+    preco: string;
+    
   }
 
   interface iCategories {
