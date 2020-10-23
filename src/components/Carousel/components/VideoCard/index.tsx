@@ -4,7 +4,6 @@ import { VideoCardContainer, ModalContent, ModalContainer, Text } from './styles
 import Carousel from "react-elastic-carousel";
 import Item from "./Item";
 import login from '../../../../assets/login.png'
-import 'nunjucks'
 import whats from '../../../../assets/whatsapp.svg'
 import './cars.css'
 const VideoCard = ({
