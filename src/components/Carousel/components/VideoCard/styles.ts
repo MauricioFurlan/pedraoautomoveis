@@ -1,6 +1,27 @@
 import styled from 'styled-components';
 import Modal from '@material-ui/core/Modal';
 
+export const FirstImageContainer = styled.a`
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+  color: white;
+  flex: 0 0 298px;
+  width: 355px;
+  height: 200px;
+  background-image: ${({ url }: { url: string }) => `url(${url})`};
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  padding: 16px;
+  transition: opacity 0.3s;
+  border-radius: 6px;
+  > span {
+    visibility: hidden;
+  }`
+
 export const VideoCardContainer = styled.a`
   text-decoration: none;
   overflow: hidden;
@@ -47,12 +68,13 @@ export const VideoCardContainer = styled.a`
 `;
 
 export const ModalContent = styled.div`
-  background: rgba(0, 0, 0, 0.75);
-  padding: 35px;
+  background: var(--blue);
+  padding: 15px;
   border-radius: 4px;
-  width: 700px;
-  height: 500px;
+  width: 900px;
+  height: 600px;
   position: relative;
+  overflow: auto;
   outline: none;
   > span {
     position: absolute;
@@ -75,3 +97,10 @@ export const ModalContainer = styled(Modal)`
   align-items: center;
   background-color: rgba(255, 255, 255, 0.5);
 `;
+
+
+export const Text = styled.div`
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  `;

@@ -5,6 +5,10 @@ export default createGlobalStyle`
 * {
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+   
 }
 
 :root {
@@ -22,6 +26,11 @@ export default createGlobalStyle`
 html,
 body {
   margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    /* background: rgb(236,236,237); */
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
   /* text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased; */
 }
@@ -102,11 +111,15 @@ export const Button = styled.button`
   font-size: 16px;
   font-weight: 700;
   width: 100%;
-  background: var(--primary);
+  background: var(--blue);
   color: var(--white);
   padding: 16px;
   border: none;
   cursor: pointer;
   outline: none;
   transition: opacity 0.3s;
+  transition: 100ms;
+  &:hover {
+    color: rgb(229, 9, 20, 0.7);
+  }
 `;

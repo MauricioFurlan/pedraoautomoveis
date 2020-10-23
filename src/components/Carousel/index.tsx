@@ -2,12 +2,17 @@ import React from 'react';
 import { VideoCardGroupContainer, Title, SliderItem } from './styles';
 import Slider from './components/Slider';
 import VideoCard from './components/VideoCard';
+import { List } from 'material-ui';
+
 
 interface iVideos {
   id: number;
   categoryId: number;
   title: string;
   url: string;
+  description: string;
+  fotos: List;
+  preco: string;
 }
 
 interface iCategory {
@@ -41,7 +46,7 @@ const Carousel = ({
 
           return (
             <SliderItem key={video.id}>
-              <VideoCard videoTitle={video.title} videoURL={video.url} />
+              <VideoCard videoTitle={video.title} videoURL={video.url} videoFotos={video.fotos} videoDescrition={video.description} videoPreco={video.preco}/>
             </SliderItem>
           );
         })}

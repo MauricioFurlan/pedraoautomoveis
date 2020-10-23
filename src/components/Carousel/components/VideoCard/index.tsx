@@ -1,12 +1,24 @@
+import { List } from 'material-ui';
 import React, { useState } from 'react';
-import { VideoCardContainer, ModalContent, ModalContainer } from './styles';
-
+import { VideoCardContainer, ModalContent, ModalContainer, Text } from './styles';
+import Carousel from "react-elastic-carousel";
+import Item from "./Item";
+import login from '../../../../assets/login.png'
+import 'nunjucks'
+import whats from '../../../../assets/whatsapp.svg'
+import './cars.css'
 const VideoCard = ({
   videoTitle,
   videoURL,
+  videoFotos,
+  videoDescrition,
+  videoPreco,
 }: {
+  videoFotos: List;
   videoTitle: string;
   videoURL: string;
+  videoDescrition: string;
+  videoPreco: string;
 }) => {
   const getYouTubeId = (youtubeURL: string) => {
     return youtubeURL.replace(
@@ -15,35 +27,68 @@ const VideoCard = ({
     );
   };
   const [modalIsOpen, setModalIsOpen] = useState(false);
-  
+  const img1 = videoFotos
   const image = `https://img.youtube.com/vi/${getYouTubeId(
     videoURL,
     )}/maxresdefault.jpg`;
-    
+    const breakPoints = [
+  { width: 1, itemsToShow: 1 },
+  { width: 550, itemsToShow: 2 },
+  { width: 768, itemsToShow: 3 },
+  { width: 1200, itemsToShow: 4 },
+];
+
+function importAll(r) {
+  return r.keys().map(r);
+}
+
+const images = importAll(require.context('../../../../assets/carros/polo', false, /\.(png|jpe?g|svg)$/));
+console.log(images)
+
+const whatsMsg = `https://api.whatsapp.com/send?1=pt_BR&phone=5519994229146&text=Olá Pedrão, gostei do ${videoTitle}`
   return (
     <>
+    
       <VideoCardContainer
-        url={image}
+        url={img1[1]}
         title={videoTitle}
         onClick={() => setModalIsOpen(!modalIsOpen)}
       >
         <span>{videoTitle}</span>
       </VideoCardContainer>
-
       {modalIsOpen && (
         <ModalContainer open={modalIsOpen}>
           <ModalContent>
             <span onClick={() => setModalIsOpen(!modalIsOpen)}>&#10060;</span>
-            <iframe
-              title={videoTitle}
-              className="border border-secondary rounded"
-              width="100%"
-              height="100%"
-              src={`https://youtube.com/embed/${getYouTubeId(videoURL)}`}
-              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              frameBorder="0"
-            ></iframe>
+        <main>
+            <article class="teacher-item">
+              
+                <header>
+                    <img 
+                        src={login}
+                        alt="Mauricio Furlan"/>
+                    <div>
+                        <strong>{videoTitle}</strong>
+                        <span>Vendido</span>
+                    </div>
+                </header>
+          <Carousel breakPoints={breakPoints}>
+          {img1.map(item => (
+            <Item url={item}></Item>
+          ))}
+        </Carousel>
+                <p>{videoDescrition}</p>
+                <footer>
+                    <p><strong>R${videoPreco}</strong>
+                    </p>
+                    <a href={whatsMsg} class="button" target="_blank">
+                    <img src={whats} alt="WhatsApp" /> Entrar em contato
+                    </a>
+                </footer>
+            </article>
+          </main>
           </ModalContent>
+
         </ModalContainer>
       )}
     </>

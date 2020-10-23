@@ -14,73 +14,107 @@
       "title": "Pedrão Automóveis",
       "url": "https://www.youtube.com/watch?v=-r6SWQLrPDY",
       "categoryId": 1,
-      "id": 1
+      "id": 1,
+      "description": "bla bla bla",
+      "fotos": ["./asd.png", "./asd.png"]
     },
     {
-      "title": "Vende-se",
+      "title": "Polo Highline 2018",
       "url": "https://www.youtube.com/watch?v=9X0sueSxEsg",
       "categoryId": 2,
-      "id": 2
+      "id": 2,
+      "description": "bla bla bla",
+      "fotos": ["/static/media/polo.0fc4e918.jpeg", "/static/media/polo1.53edce2b.jpeg", "/static/media/polo2.c5b069ea.jpeg", "/static/media/polo3.b7ff2f59.jpeg", "/static/media/polo4.3ded0a33.jpeg", "/static/media/polo5.09316b81.jpeg", "/static/media/polo6.b36879e4.jpeg", "/static/media/polo7.e9bb0fec.jpeg", "/static/media/polo8.3594587f.jpeg"],
+      "preco": "75.000,00"
     },
     {
-      "title": "Cars",
-      "url": "https://www.youtube.com/watch?v=Cpq2pkrVncA",
+      "title": "Classic",
+      "url": "https://www.youtube.com/watch?v=-r6SWQLrPDY",
       "categoryId": 1,
-      "id": 3
+      "id": 1,
+      "description": "Classic em ótimo estado!",
+      "fotos": ["/static/media/1.757e88d2.jpg", "/static/media/2.9d959e87.jpg", "/static/media/3.0abfaeff.jpg", "/static/media/4.5182092a.jpg", "/static/media/5.ec24723f.jpg", "/static/media/6.438151f5.jpg", "/static/media/7.cc509b13.jpg", "/static/media/8.ad0f441e.jpg", "/static/media/9.41177aac.jpg"],
+      "preco": "15.000,00"
     },
     {
       "title": "Top",
       "url": "https://www.youtube.com/watch?v=Fl6FOI_rqmg",
       "categoryId": 1,
-      "id": 4
+      "id": 4,
+      "description": "bla bla bla",
+      "fotos": ["https://www.youtube.com/watch?v=BBio2gyb-Ys", "https://www.youtube.com/watch?v=SlySocp9Uis"]
     },
     {
       "title": "Legal",
       "url": "https://www.youtube.com/watch?v=r6_x3D1zV9A",
       "categoryId": 2,
-      "id": 5
+      "id": 5,
+      "description": "bla bla bla",
+      "fotos": ["https://www.youtube.com/watch?v=BBio2gyb-Ys", "https://www.youtube.com/watch?v=SlySocp9Uis"]
     },
     {
       "title": "Topzera",
       "url": "https://www.youtube.com/watch?v=kv0iYUeprww",
       "categoryId": 1,
-      "id": 6
+      "id": 6,
+      "description": "bla bla bla",
+      "fotos": ["https://www.youtube.com/watch?v=BBio2gyb-Ys", "https://www.youtube.com/watch?v=SlySocp9Uis"]
     },
     {
       "title": "Videos",
       "url": "https://www.youtube.com/watch?v=KbFdgSEio9Y",
       "categoryId": 2,
-      "id": 7
+      "id": 7,
+      "description": "bla bla bla",
+      "fotos": ["https://www.youtube.com/watch?v=BBio2gyb-Ys", "https://www.youtube.com/watch?v=SlySocp9Uis"]
     },
     {
       "title": "Carrão",
       "url": "https://www.youtube.com/watch?v=kHbfdbeCqJs",
       "categoryId": 1,
-      "id": 8
+      "id": 8,
+      "description": "bla bla bla",
+      "fotos": ["https://www.youtube.com/watch?v=BBio2gyb-Ys", "https://www.youtube.com/watch?v=SlySocp9Uis"]
     },
     {
       "title": "Golf",
       "url": "https://www.youtube.com/watch?v=yBv4GUI9wf0",
       "categoryId": 1,
-      "id": 9
+      "id": 9,
+      "description": "bla bla bla",
+      "fotos": ["https://www.youtube.com/watch?v=BBio2gyb-Ys", "https://www.youtube.com/watch?v=SlySocp9Uis"]
     },
     {
       "title": "Partiu?",
       "url": "https://www.youtube.com/watch?v=ZpdfAWohZhg",
       "categoryId": 1,
-      "id": 11
+      "id": 11,
+      "description": "bla bla bla",
+      "fotos": ["https://www.youtube.com/watch?v=BBio2gyb-Ys", "https://www.youtube.com/watch?v=SlySocp9Uis"]
     },
     {
       "title": "Carros caros",
       "url": "https://www.youtube.com/watch?v=tvSdjP-Z19M",
       "categoryId": 2,
-      "id": 12
+      "id": 12,
+      "description": "bla bla bla",
+      "fotos": ["https://www.youtube.com/watch?v=BBio2gyb-Ys", "https://www.youtube.com/watch?v=SlySocp9Uis"]
     },
     {
       "title": "Carros",
       "url": "https://www.youtube.com/watch?v=BBio2gyb-Ys",
       "categoryId": 1,
-      "id": 13
+      "id": 13,
+      "description": "bla bla bla",
+      "fotos": ["https://www.youtube.com/watch?v=BBio2gyb-Ys", "https://www.youtube.com/watch?v=SlySocp9Uis"]
+    }
+  ],
+  "Imagens": [
+    {
+      "title": "Celta",
+      "description": "bla bla bla",
+      "fotos": ["https://www.youtube.com/watch?v=BBio2gyb-Ys", "https://www.youtube.com/watch?v=SlySocp9Uis"]
     }
   ]
+
 }

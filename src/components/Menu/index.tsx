@@ -36,10 +36,10 @@ const Menu = () => {
           </a>
         </div>
         <div>
-          <Button to="/register/video">Fale Conosco</Button>
+          {/* <Button to="/register/video">Fale Conosco</Button> */}
         </div>
         <div>
-          <ButtonAdmin to="/admin">Admin</ButtonAdmin>
+          {/* <ButtonAdmin to="/admin">Admin</ButtonAdmin> */}
         </div>
           <LogoLink to="/register/video">
           </LogoLink>
