@@ -37,12 +37,12 @@ const VideoCard = ({
   { width: 1200, itemsToShow: 4 },
 ];
 
-function importAll(r) {
-  return r.keys().map(r);
-}
+// function importAll(r) {
+//   return r.keys().map(r);
+// }
 
-const images = importAll(require.context('../../../../assets/carros/polo', false, /\.(png|jpe?g|svg)$/));
-console.log(images)
+// const images = importAll(require.context('../../../../assets/carros/polo', false, /\.(png|jpe?g|svg)$/));
+// console.log(images)
 
 const whatsMsg = `https://api.whatsapp.com/send?1=pt_BR&phone=5519994229146&text=Olá Pedrão, gostei do ${videoTitle}`
   return (
