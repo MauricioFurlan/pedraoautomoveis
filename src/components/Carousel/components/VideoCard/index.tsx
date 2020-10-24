@@ -42,7 +42,7 @@ const VideoCard = ({
 // function importAll(r) {
 //   return r.keys().map(r);
 // }
-function ResponsiveImage( src: never, width: number, height: number) {
+function ResponsiveImage( src: never, width: never, height: never) {
   return (
     <div
       style={ { 
