@@ -1,4 +1,3 @@
-import { List } from 'material-ui';
 import React, { useState } from 'react';
 import { VideoCardContainer, ModalContent, ModalContainer, Text } from './styles';
 import Carousel from "react-elastic-carousel";
