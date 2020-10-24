@@ -85,8 +85,8 @@ export const ModalContent = styled.div`
   }
   @media (max-width: 800px) {
     min-width: 0;
-    width: 90%;
-    height: 90%;
+    width: 100%;
+    height: 100%;
   }
 `;
 
