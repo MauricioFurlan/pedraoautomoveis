@@ -6,6 +6,9 @@ import login from '../../../../assets/login.png';
 import whats from '../../../../assets/whatsapp.svg';
 import './cars.css'
 
+interface Item {
+  item: string;
+}
 const VideoCard = ({
   videoTitle,
   videoURL,
@@ -42,22 +45,22 @@ const VideoCard = ({
 // function importAll(r) {
 //   return r.keys().map(r);
 // }
-function ResponsiveImage( src: never, width: never, height: never) {
-  return (
-    <div
-      style={ { 
-        width,
-      } }
-      className="responsive-image">
-      <div style={ {
-          paddingBottom: ( height / width * 100 ) + '%'
-        } } />
-      <img
-        src={ src }
-        className="responsive-image__image" />
-    </div>
-  );
-}
+// function ResponsiveImage( src: Item, width: number) {
+//   return (
+//     <div
+//       style={ { 
+//         width,
+//       } }
+//       className="responsive-image">
+//       <div style={ {
+//           paddingBottom: ( 800 / width * 100 ) + '%'
+//         } } />
+//       <img
+//         src={ src }
+//         className="responsive-image__image" />
+//     </div>
+//   );
+// }
 
 // const images = importAll(require.context('../../../../assets/carros/polo', false, /\.(png|jpe?g|svg)$/));
 // console.log(images)
@@ -91,12 +94,16 @@ const whatsMsg = `https://api.whatsapp.com/send?1=pt_BR&phone=5519994229146&text
           <Carousel breakPoints={breakPoints}>
 
           {img1.map(item => (
-            // <img src={item} />
-                        <ResponsiveImage
-    src={item}
-    width={ 1200 }
-    height={ 800 } />
-            // <Item url={item}></Item>
+  <div
+ 
+  className="responsive-image">
+  <div style={ {
+      paddingBottom: ( 800 / width * 100 ) + '%'
+    } } />
+  <img
+    src={ item }
+    className="responsive-image__image" />
+</div>
           ))}
         </Carousel>
                 <p>{videoDescrition}</p>
