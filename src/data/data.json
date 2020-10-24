@@ -11,54 +11,64 @@
   ],
   "videos": [
     {
-      "title": "Pedrão Automóveis",
-      "url": "https://www.youtube.com/watch?v=-r6SWQLrPDY",
-      "categoryId": 1,
+      "title": "Polo Highline 2018/2018",
+      "url": "https://www.youtube.com/watch?v=9X0sueSxEsg",
+      "categoryId": 2,
       "id": 1,
-      "description": "bla bla bla",
-      "fotos": ["./asd.png", "./asd.png"]
+      "description": "Entre em contato conosco para mais informações",
+      "fotos": ["/images/polo/polo.jpeg", "/images/polo/polo1.jpeg", "/images/polo/polo2.jpeg", "/images/polo/polo3.jpeg", "/images/polo/polo4.jpeg", "/images/polo/polo5.jpeg", "/images/polo/polo6.jpeg", "/images/polo/polo7.jpeg", "/images/polo/polo8.jpeg"],
+      "preco": "75.000,00",
+      "destaque": "/images/polo/polo1.jpeg"
     },
     {
-      "title": "Polo Highline 2018",
+      "title": "CIVIC LXR 2.0 2013/2014",
       "url": "https://www.youtube.com/watch?v=9X0sueSxEsg",
       "categoryId": 2,
       "id": 2,
-      "description": "bla bla bla",
-      "fotos": ["/static/media/polo.0fc4e918.jpeg", "/static/media/polo1.53edce2b.jpeg", "/static/media/polo2.c5b069ea.jpeg", "/static/media/polo3.b7ff2f59.jpeg", "/static/media/polo4.3ded0a33.jpeg", "/static/media/polo5.09316b81.jpeg", "/static/media/polo6.b36879e4.jpeg", "/static/media/polo7.e9bb0fec.jpeg", "/static/media/polo8.3594587f.jpeg"],
-      "preco": "75.000,00"
+      "description": "Entre em contato conosco para mais informações",
+      "fotos": ["/images/civic/1.jpeg", "/images/civic/2.jpeg", "/images/civic/3.jpeg", "/images/civic/4.jpeg", "/images/civic/5.jpeg", "/images/civic/6.jpeg"],
+      "preco": "53.900,00",
+      "destaque": "/images/civic/1.jpeg"
     },
     {
-      "title": "Classic",
-      "url": "https://www.youtube.com/watch?v=-r6SWQLrPDY",
-      "categoryId": 1,
-      "id": 1,
-      "description": "Classic em ótimo estado!",
-      "fotos": ["/static/media/1.757e88d2.jpg", "/static/media/2.9d959e87.jpg", "/static/media/3.0abfaeff.jpg", "/static/media/4.5182092a.jpg", "/static/media/5.ec24723f.jpg", "/static/media/6.438151f5.jpg", "/static/media/7.cc509b13.jpg", "/static/media/8.ad0f441e.jpg", "/static/media/9.41177aac.jpg"],
-      "preco": "15.000,00"
+      "title": "DODGE RAM 2500 DIESEL 2005",
+      "url": "https://www.youtube.com/watch?v=9X0sueSxEsg",
+      "categoryId": 2,
+      "id": 3,
+      "description": "Entre em contato conosco para mais informações",
+      "fotos": ["/images/dodge/1.jpeg", "/images/dodge/2.jpeg", "/images/dodge/3.jpeg", "/images/dodge/4.jpeg", "/images/dodge/5.jpeg", "/images/dodge/6.jpeg"],
+      "preco": "120.000,00",
+      "destaque": "/images/dodge/1.jpeg"
     },
     {
-      "title": "Top",
-      "url": "https://www.youtube.com/watch?v=Fl6FOI_rqmg",
-      "categoryId": 1,
+      "title": "MERCEDES BENS GLA200 2015",
+      "url": "https://www.youtube.com/watch?v=9X0sueSxEsg",
+      "categoryId": 2,
       "id": 4,
-      "description": "bla bla bla",
-      "fotos": ["https://www.youtube.com/watch?v=BBio2gyb-Ys", "https://www.youtube.com/watch?v=SlySocp9Uis"]
+      "description": "Entre em contato conosco para mais informações",
+      "fotos": ["/images/mercedes/1.jpeg", "/images/mercedes/2.jpeg", "/images/mercedes/3.jpeg", "/images/mercedes/4.jpeg", "/images/mercedes/5.jpeg"],
+      "preco": "105.000,00",
+      "destaque": "/images/mercedes/1.jpeg"
     },
     {
-      "title": "Legal",
-      "url": "https://www.youtube.com/watch?v=r6_x3D1zV9A",
+      "title": "RAV4 2018",
+      "url": "https://www.youtube.com/watch?v=9X0sueSxEsg",
       "categoryId": 2,
       "id": 5,
-      "description": "bla bla bla",
-      "fotos": ["https://www.youtube.com/watch?v=BBio2gyb-Ys", "https://www.youtube.com/watch?v=SlySocp9Uis"]
+      "description": "Entre em contato conosco para mais informações",
+      "fotos": ["/images/rav/1.jpeg", "/images/rav/2.jpeg", "/images/rav/3.jpeg", "/images/rav/4.jpeg", "/images/rav/5.jpeg", "/images/rav/6.jpeg"],
+      "preco": "105.000,00",
+      "destaque": "/images/rav/1.jpeg"
     },
     {
-      "title": "Topzera",
-      "url": "https://www.youtube.com/watch?v=kv0iYUeprww",
-      "categoryId": 1,
+      "title": "HILUX SRV - 3.0 DIESEL",
+      "url": "https://www.youtube.com/watch?v=9X0sueSxEsg",
+      "categoryId": 2,
       "id": 6,
-      "description": "bla bla bla",
-      "fotos": ["https://www.youtube.com/watch?v=BBio2gyb-Ys", "https://www.youtube.com/watch?v=SlySocp9Uis"]
+      "description": "Entre em contato conosco para mais informações",
+      "fotos": ["/images/hilux/1.jpeg", "/images/hilux/2.jpeg", "/images/hilux/3.jpeg", "/images/hilux/4.jpeg", "/images/hilux/5.jpeg", "/images/hilux/6.jpeg", "/images/hilux/6.jpeg"],
+      "preco": "105.000,00",
+      "destaque": "/images/hilux/1.jpeg"
     },
     {
       "title": "Videos",
