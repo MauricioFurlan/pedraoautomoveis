@@ -16,9 +16,9 @@
       "categoryId": 2,
       "id": 1,
       "description": "Entre em contato conosco para mais informações",
-      "fotos": ["/images/polo/polo.jpeg", "/images/polo/polo1.jpeg", "/images/polo/polo2.jpeg", "/images/polo/polo3.jpeg", "/images/polo/polo4.jpeg", "/images/polo/polo5.jpeg", "/images/polo/polo6.jpeg", "/images/polo/polo7.jpeg", "/images/polo/polo8.jpeg"],
+      "fotos": ["/images/polo/polo.jpg", "/images/polo/polo1.jpg", "/images/polo/polo2.jpg", "/images/polo/polo3.jpg", "/images/polo/polo4.jpg", "/images/polo/polo5.jpg", "/images/polo/polo6.jpg", "/images/polo/polo7.jpg", "/images/polo/polo8.jpg"],
       "preco": "75.000,00",
-      "destaque": "/images/polo/polo1.jpeg"
+      "destaque": "/images/polo/polo1.jpg"
     },
     {
       "title": "CIVIC LXR 2.0 2013/2014",
@@ -26,9 +26,9 @@
       "categoryId": 2,
       "id": 2,
       "description": "Entre em contato conosco para mais informações",
-      "fotos": ["/images/civic/1.jpeg", "/images/civic/2.jpeg", "/images/civic/3.jpeg", "/images/civic/4.jpeg", "/images/civic/5.jpeg", "/images/civic/6.jpeg"],
+      "fotos": ["/images/civic/1.jpg", "/images/civic/2.jpg", "/images/civic/3.jpg", "/images/civic/4.jpg", "/images/civic/5.jpg", "/images/civic/6.jpg"],
       "preco": "53.900,00",
-      "destaque": "/images/civic/1.jpeg"
+      "destaque": "/images/civic/1.jpg"
     },
     {
       "title": "DODGE RAM 2500 DIESEL 2005",
@@ -36,9 +36,9 @@
       "categoryId": 2,
       "id": 3,
       "description": "Entre em contato conosco para mais informações",
-      "fotos": ["/images/dodge/1.jpeg", "/images/dodge/2.jpeg", "/images/dodge/3.jpeg", "/images/dodge/4.jpeg", "/images/dodge/5.jpeg", "/images/dodge/6.jpeg"],
+      "fotos": ["/images/dodge/1.jpg", "/images/dodge/2.jpg", "/images/dodge/3.jpg", "/images/dodge/4.jpg", "/images/dodge/5.jpg", "/images/dodge/6.jpg"],
       "preco": "120.000,00",
-      "destaque": "/images/dodge/1.jpeg"
+      "destaque": "/images/dodge/1.jpg"
     },
     {
       "title": "MERCEDES BENS GLA200 2015",
@@ -46,9 +46,9 @@
       "categoryId": 2,
       "id": 4,
       "description": "Entre em contato conosco para mais informações",
-      "fotos": ["/images/mercedes/1.jpeg", "/images/mercedes/2.jpeg", "/images/mercedes/3.jpeg", "/images/mercedes/4.jpeg", "/images/mercedes/5.jpeg"],
+      "fotos": ["/images/mercedes/1.jpg", "/images/mercedes/2.jpg", "/images/mercedes/3.jpg", "/images/mercedes/4.jpg", "/images/mercedes/5.jpg"],
       "preco": "105.000,00",
-      "destaque": "/images/mercedes/1.jpeg"
+      "destaque": "/images/mercedes/1.jpg"
     },
     {
       "title": "RAV4 2018",
@@ -56,9 +56,9 @@
       "categoryId": 2,
       "id": 5,
       "description": "Entre em contato conosco para mais informações",
-      "fotos": ["/images/rav/1.jpeg", "/images/rav/2.jpeg", "/images/rav/3.jpeg", "/images/rav/4.jpeg", "/images/rav/5.jpeg", "/images/rav/6.jpeg"],
+      "fotos": ["/images/rav/1.jpg", "/images/rav/2.jpg", "/images/rav/3.jpg", "/images/rav/4.jpg", "/images/rav/5.jpg", "/images/rav/6.jpg"],
       "preco": "105.000,00",
-      "destaque": "/images/rav/1.jpeg"
+      "destaque": "/images/rav/1.jpg"
     },
     {
       "title": "HILUX SRV - 3.0 DIESEL",
@@ -66,9 +66,9 @@
       "categoryId": 2,
       "id": 6,
       "description": "Entre em contato conosco para mais informações",
-      "fotos": ["/images/hilux/1.jpeg", "/images/hilux/2.jpeg", "/images/hilux/3.jpeg", "/images/hilux/4.jpeg", "/images/hilux/5.jpeg", "/images/hilux/6.jpeg", "/images/hilux/6.jpeg"],
+      "fotos": ["/images/hilux/1.jpg", "/images/hilux/2.jpg", "/images/hilux/3.jpg", "/images/hilux/4.jpg", "/images/hilux/5.jpg", "/images/hilux/6.jpg", "/images/hilux/6.jpg"],
       "preco": "105.000,00",
-      "destaque": "/images/hilux/1.jpeg"
+      "destaque": "/images/hilux/1.jpg"
     },
     {
       "title": "Videos",
