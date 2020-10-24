@@ -55,7 +55,7 @@ const whatsMsg = `https://api.whatsapp.com/send?1=pt_BR&phone=5519994229146&text
         onClick={() => setModalIsOpen(!modalIsOpen)}
       >
         <span>{videoTitle}</span>
-      </VideoCardContainer>
+      </FirstImageContainer>
       {modalIsOpen && (
         <ModalContainer open={modalIsOpen}>
           <ModalContent>
