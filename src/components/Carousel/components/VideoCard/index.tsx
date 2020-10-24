@@ -37,9 +37,9 @@ const VideoCard = ({
     )}/maxresdefault.jpg`;
     const breakPoints = [
   { width: 1, itemsToShow: 1 ,slidesToScroll: 1 },
-  { width: 550, itemsToShow: 2, slidesToScroll: 1 },
+  { width: 550, itemsToShow: 1, slidesToScroll: 1 },
   { width: 768, itemsToShow: 1, slidesToScroll: 1, },
-  { width: 1200, itemsToShow: 4 , slidesToScroll: 1},
+  { width: 1200, itemsToShow: 1 , slidesToScroll: 1},
 ];
 
 // function importAll(r) {
