@@ -10,21 +10,29 @@
     }
   ],
   "videos": [
+        {
+          "title": "Pedrão Automóveis",
+          "url": "https://www.youtube.com/watch?v=Uy-mSOwUndM",
+          "categoryId": 1,
+          "id": 1,
+          "description": "bla bla bla",
+          "fotos": ["./asd.png", "./asd.png"]
+        },
     {
       "title": "Polo Highline 2018/2018",
       "url": "https://www.youtube.com/watch?v=9X0sueSxEsg",
-      "categoryId": 2,
-      "id": 1,
+      "categoryId": 1,
+      "id": 2,
       "description": "Entre em contato conosco para mais informações",
-      "fotos": ["/images/polo/polo.jpg", "/images/polo/polo1.jpg", "/images/polo/polo2.jpg", "/images/polo/polo3.jpg", "/images/polo/polo4.jpg", "/images/polo/polo5.jpg", "/images/polo/polo6.jpg", "/images/polo/polo7.jpg", "/images/polo/polo8.jpg"],
+      "fotos": ["/images/polo/polo.jpeg", "/images/polo/polo1.jpeg", "/images/polo/polo2.jpeg", "/images/polo/polo3.jpeg", "/images/polo/polo4.jpeg", "/images/polo/polo5.jpeg", "/images/polo/polo6.jpeg", "/images/polo/polo7.jpeg", "/images/polo/polo8.jpeg"],
       "preco": "75.000,00",
-      "destaque": "/images/polo/polo1.jpg"
+      "destaque": "/images/polo/polo1.jpeg"
     },
     {
       "title": "CIVIC LXR 2.0 2013/2014",
       "url": "https://www.youtube.com/watch?v=9X0sueSxEsg",
-      "categoryId": 2,
-      "id": 2,
+      "categoryId": 1,
+      "id": 3,
       "description": "Entre em contato conosco para mais informações",
       "fotos": ["/images/civic/1.jpg", "/images/civic/2.jpg", "/images/civic/3.jpg", "/images/civic/4.jpg", "/images/civic/5.jpg", "/images/civic/6.jpg"],
       "preco": "53.900,00",
@@ -33,8 +41,8 @@
     {
       "title": "DODGE RAM 2500 DIESEL 2005",
       "url": "https://www.youtube.com/watch?v=9X0sueSxEsg",
-      "categoryId": 2,
-      "id": 3,
+      "categoryId": 1,
+      "id": 4,
       "description": "Entre em contato conosco para mais informações",
       "fotos": ["/images/dodge/1.jpg", "/images/dodge/2.jpg", "/images/dodge/3.jpg", "/images/dodge/4.jpg", "/images/dodge/5.jpg", "/images/dodge/6.jpg"],
       "preco": "120.000,00",
@@ -43,8 +51,8 @@
     {
       "title": "MERCEDES BENS GLA200 2015",
       "url": "https://www.youtube.com/watch?v=9X0sueSxEsg",
-      "categoryId": 2,
-      "id": 4,
+      "categoryId": 1,
+      "id": 5,
       "description": "Entre em contato conosco para mais informações",
       "fotos": ["/images/mercedes/1.jpg", "/images/mercedes/2.jpg", "/images/mercedes/3.jpg", "/images/mercedes/4.jpg", "/images/mercedes/5.jpg"],
       "preco": "105.000,00",
@@ -53,8 +61,8 @@
     {
       "title": "RAV4 2018",
       "url": "https://www.youtube.com/watch?v=9X0sueSxEsg",
-      "categoryId": 2,
-      "id": 5,
+      "categoryId": 1,
+      "id": 6,
       "description": "Entre em contato conosco para mais informações",
       "fotos": ["/images/rav/1.jpg", "/images/rav/2.jpg", "/images/rav/3.jpg", "/images/rav/4.jpg", "/images/rav/5.jpg", "/images/rav/6.jpg"],
       "preco": "105.000,00",
@@ -63,68 +71,12 @@
     {
       "title": "HILUX SRV - 3.0 DIESEL",
       "url": "https://www.youtube.com/watch?v=9X0sueSxEsg",
-      "categoryId": 2,
-      "id": 6,
+      "categoryId": 1,
+      "id": 7,
       "description": "Entre em contato conosco para mais informações",
       "fotos": ["/images/hilux/1.jpg", "/images/hilux/2.jpg", "/images/hilux/3.jpg", "/images/hilux/4.jpg", "/images/hilux/5.jpg", "/images/hilux/6.jpg", "/images/hilux/6.jpg"],
       "preco": "105.000,00",
       "destaque": "/images/hilux/1.jpg"
-    },
-    {
-      "title": "Videos",
-      "url": "https://www.youtube.com/watch?v=KbFdgSEio9Y",
-      "categoryId": 2,
-      "id": 7,
-      "description": "bla bla bla",
-      "fotos": ["https://www.youtube.com/watch?v=BBio2gyb-Ys", "https://www.youtube.com/watch?v=SlySocp9Uis"]
-    },
-    {
-      "title": "Carrão",
-      "url": "https://www.youtube.com/watch?v=kHbfdbeCqJs",
-      "categoryId": 1,
-      "id": 8,
-      "description": "bla bla bla",
-      "fotos": ["https://www.youtube.com/watch?v=BBio2gyb-Ys", "https://www.youtube.com/watch?v=SlySocp9Uis"]
-    },
-    {
-      "title": "Golf",
-      "url": "https://www.youtube.com/watch?v=yBv4GUI9wf0",
-      "categoryId": 1,
-      "id": 9,
-      "description": "bla bla bla",
-      "fotos": ["https://www.youtube.com/watch?v=BBio2gyb-Ys", "https://www.youtube.com/watch?v=SlySocp9Uis"]
-    },
-    {
-      "title": "Partiu?",
-      "url": "https://www.youtube.com/watch?v=ZpdfAWohZhg",
-      "categoryId": 1,
-      "id": 11,
-      "description": "bla bla bla",
-      "fotos": ["https://www.youtube.com/watch?v=BBio2gyb-Ys", "https://www.youtube.com/watch?v=SlySocp9Uis"]
-    },
-    {
-      "title": "Carros caros",
-      "url": "https://www.youtube.com/watch?v=tvSdjP-Z19M",
-      "categoryId": 2,
-      "id": 12,
-      "description": "bla bla bla",
-      "fotos": ["https://www.youtube.com/watch?v=BBio2gyb-Ys", "https://www.youtube.com/watch?v=SlySocp9Uis"]
-    },
-    {
-      "title": "Carros",
-      "url": "https://www.youtube.com/watch?v=BBio2gyb-Ys",
-      "categoryId": 1,
-      "id": 13,
-      "description": "bla bla bla",
-      "fotos": ["https://www.youtube.com/watch?v=BBio2gyb-Ys", "https://www.youtube.com/watch?v=SlySocp9Uis"]
-    }
-  ],
-  "Imagens": [
-    {
-      "title": "Celta",
-      "description": "bla bla bla",
-      "fotos": ["https://www.youtube.com/watch?v=BBio2gyb-Ys", "https://www.youtube.com/watch?v=SlySocp9Uis"]
     }
   ]
-
 }
