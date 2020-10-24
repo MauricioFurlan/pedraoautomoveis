@@ -1,6 +1,6 @@
 import { List } from 'material-ui';
 import React, { useState } from 'react';
-import { VideoCardContainer, ModalContent, ModalContainer, FirstImageContainer } from './styles';
+import { VideoCardContainer, ModalContent, ModalContainer, Text } from './styles';
 import Carousel from "react-elastic-carousel";
 import Item from "./Item";
 import login from '../../../../assets/login.png'
@@ -44,18 +44,18 @@ const VideoCard = ({
 
 // const images = importAll(require.context('../../../../assets/carros/polo', false, /\.(png|jpe?g|svg)$/));
 // console.log(images)
-
+const first = img1[0]
 const whatsMsg = `https://api.whatsapp.com/send?1=pt_BR&phone=5519994229146&text=Olá Pedrão, gostei do ${videoTitle}`
   return (
     <>
     
-      <FirstImageContainer
-        url={img1[0]}
+      <VideoCardContainer
+        url={first}
         title={videoTitle}
         onClick={() => setModalIsOpen(!modalIsOpen)}
       >
         <span>{videoTitle}</span>
-      </FirstImageContainer>
+      </VideoCardContainer>
       {modalIsOpen && (
         <ModalContainer open={modalIsOpen}>
           <ModalContent>
