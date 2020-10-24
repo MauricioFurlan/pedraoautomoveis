@@ -13,6 +13,7 @@ interface iVideos {
   description: string;
   fotos: [];
   preco: string;
+  destaque: string;
 }
 
 interface iCategory {
@@ -46,7 +47,7 @@ const Carousel = ({
 
           return (
             <SliderItem key={video.id}>
-              <VideoCard videoTitle={video.title} videoURL={video.url} videoFotos={video.fotos} videoDescrition={video.description} videoPreco={video.preco}/>
+              <VideoCard videoTitle={video.title} videoURL={video.url} videoFotos={video.fotos} videoDescrition={video.description} videoPreco={video.preco} videoDestaque={video.destaque}/>
             </SliderItem>
           );
         })}

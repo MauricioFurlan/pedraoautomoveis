@@ -13,12 +13,14 @@ const VideoCard = ({
   videoFotos,
   videoDescrition,
   videoPreco,
+  videoDestaque,
 }: {
   videoFotos: [];
   videoTitle: string;
   videoURL: string;
   videoDescrition: string;
   videoPreco: string;
+  videoDestaque: string;
 }) => {
   const getYouTubeId = (youtubeURL: string) => {
     return youtubeURL.replace(
@@ -50,7 +52,7 @@ const whatsMsg = `https://api.whatsapp.com/send?1=pt_BR&phone=5519994229146&text
     <>
     
       <VideoCardContainer
-        url={first}
+        url={videoDestaque}
         title={videoTitle}
         onClick={() => setModalIsOpen(!modalIsOpen)}
       >
