@@ -65,13 +65,13 @@ const Home = () => {
                       url={category.videos[0].url}
                       videoDescription={'Compra e Venda de Veículos'}
                     />
-                    <Carousel ignoreFirstVideo category={category} />
+                    <Carousel ignoreFirstVideo category={category}/>
                   </>
                 );
               }
             } else {
               if (category.videos.length > 0)
-                return <Carousel key={category.id} category={category} />;
+                return <Carousel key={category.id} category={category}/>;
             }
           })}
       </Container>
