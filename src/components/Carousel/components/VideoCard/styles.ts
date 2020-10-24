@@ -9,7 +9,7 @@ export const FirstImageContainer = styled.a`
   flex: 0 0 298px;
   width: 355px;
   height: 200px;
-  background-image: ${({ url }: { url: string }) => `url(${url})`};
+  background-image: ${({ url }: { url: [] }) => `url(${url})`};
   background-size: cover;
   background-position: center;
   position: relative;
