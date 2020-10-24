@@ -98,7 +98,7 @@ const whatsMsg = `https://api.whatsapp.com/send?1=pt_BR&phone=5519994229146&text
  
   className="responsive-image">
   <div style={ {
-      paddingBottom: ( 800 / width * 100 ) + '%'
+      paddingBottom: ( 800 / 1200 * 100 ) + '%'
     } } />
   <img
     src={ item }
