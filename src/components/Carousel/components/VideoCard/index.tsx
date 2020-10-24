@@ -1,6 +1,6 @@
 import { List } from 'material-ui';
 import React, { useState } from 'react';
-import { VideoCardContainer, ModalContent, ModalContainer, Text } from './styles';
+import { VideoCardContainer, ModalContent, ModalContainer, FirstImageContainer } from './styles';
 import Carousel from "react-elastic-carousel";
 import Item from "./Item";
 import login from '../../../../assets/login.png'
@@ -49,8 +49,8 @@ const whatsMsg = `https://api.whatsapp.com/send?1=pt_BR&phone=5519994229146&text
   return (
     <>
     
-      <VideoCardContainer
-        url={"oi"}
+      <FirstImageContainer
+        url={img1[0]}
         title={videoTitle}
         onClick={() => setModalIsOpen(!modalIsOpen)}
       >
