@@ -46,7 +46,7 @@ const VideoCard = ({
 
 // const images = importAll(require.context('../../../../assets/carros/polo', false, /\.(png|jpe?g|svg)$/));
 // console.log(images)
-const first = img1[0]
+console.log("destaque",videoDestaque)
 const whatsMsg = `https://api.whatsapp.com/send?1=pt_BR&phone=5519994229146&text=Olá Pedrão, gostei do ${videoTitle}`
   return (
     <>
