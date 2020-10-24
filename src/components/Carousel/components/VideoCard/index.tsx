@@ -4,9 +4,9 @@ import { VideoCardContainer, ModalContent, ModalContainer, Text } from './styles
 import Carousel from "react-elastic-carousel";
 import Item from "./Item";
 import login from '../../../../assets/login.png'
-import whats from '../../../../assets/whatsapp.svg'
-import './cars.css'
+import whats from './whatsapp.svg'
 
+import './cars.css'
 const VideoCard = ({
   videoTitle,
   videoURL,
@@ -24,7 +24,7 @@ const VideoCard = ({
 }) => {
   const getYouTubeId = (youtubeURL: string) => {
     return youtubeURL.replace(
-      /^.*((youtu.be\/)|(v\/)|(\/u\/\w\/)|(embed\/)|(watch\?))\??v?=?([^#&?]*).*/,
+      /^.((youtu.be\/)|(v\/)|(\/u\/\w\/)|(embed\/)|(watch\?))\??v?=?([^#&?]).*/,
       '$7',
     );
   };
@@ -34,19 +34,34 @@ const VideoCard = ({
     videoURL,
     )}/maxresdefault.jpg`;
     const breakPoints = [
-  { width: 1, itemsToShow: 1 },
-  { width: 550, itemsToShow: 2 },
-  { width: 768, itemsToShow: 3 },
-  { width: 1200, itemsToShow: 4 },
+  { width: 1, itemsToShow: 1 ,slidesToScroll: 1 },
+  { width: 550, itemsToShow: 2, slidesToScroll: 1 },
+  { width: 768, itemsToShow: 1, slidesToScroll: 1, },
+  { width: 1200, itemsToShow: 4 , slidesToScroll: 1},
 ];
 
 // function importAll(r) {
 //   return r.keys().map(r);
 // }
+function ResponsiveImage( { src, width, height } ) {
+  return (
+    <div
+      style={ { 
+        width,
+      } }
+      className="responsive-image">
+      <div style={ {
+          paddingBottom: ( height / width * 100 ) + '%'
+        } } />
+      <img
+        src={ src }
+        className="responsive-image__image" />
+    </div>
+  );
+}
 
 // const images = importAll(require.context('../../../../assets/carros/polo', false, /\.(png|jpe?g|svg)$/));
 // console.log(images)
-console.log("destaque",videoDestaque)
 const whatsMsg = `https://api.whatsapp.com/send?1=pt_BR&phone=5519994229146&text=Olá Pedrão, gostei do ${videoTitle}`
   return (
     <>
@@ -55,7 +70,7 @@ const whatsMsg = `https://api.whatsapp.com/send?1=pt_BR&phone=5519994229146&text
         url={videoDestaque}
         title={videoTitle}
         onClick={() => setModalIsOpen(!modalIsOpen)}
-      >
+        >
         <span>{videoTitle}</span>
       </VideoCardContainer>
       {modalIsOpen && (
@@ -68,15 +83,21 @@ const whatsMsg = `https://api.whatsapp.com/send?1=pt_BR&phone=5519994229146&text
                 <header>
                     <img 
                         src={login}
-                        alt="Mauricio Furlan"/>
+                        alt="Pedrão"/>
                     <div>
                         <strong>{videoTitle}</strong>
                         <span>Vendido</span>
                     </div>
                 </header>
           <Carousel breakPoints={breakPoints}>
+
           {img1.map(item => (
-            <Item url={item}></Item>
+            // <img src={item} />
+                        <ResponsiveImage
+    src={item}
+    width={ 1200 }
+    height={ 800 } />
+            // <Item url={item}></Item>
           ))}
         </Carousel>
                 <p>{videoDescrition}</p>
