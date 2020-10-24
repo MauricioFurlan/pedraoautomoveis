@@ -15,6 +15,7 @@ const Home = () => {
     description: string;
     fotos: [];
     preco: string;
+    destaque: string;
     
   }
 
