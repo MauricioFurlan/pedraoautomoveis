@@ -6,6 +6,7 @@ import Item from "./Item";
 import login from '../../../../assets/login.png'
 import whats from '../../../../assets/whatsapp.svg'
 import './cars.css'
+
 const VideoCard = ({
   videoTitle,
   videoURL,
