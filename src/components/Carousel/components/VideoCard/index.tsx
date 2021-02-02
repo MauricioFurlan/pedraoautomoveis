@@ -41,13 +41,12 @@ const VideoCard = ({
   { width: 768, itemsToShow: 1, slidesToScroll: 1, },
   { width: 1200, itemsToShow: 1 , slidesToScroll: 1},
 ];
+interface Context { [x: string]: any;};
 
-function importAll(r) {
-
-  interface Context { [x: string]: any;};
+function importAll(r : Context) {
   const context: Context = {};
   r.keys().map((item, index) => { context[item.replace('./', '')] = r(item); });
-  console.log(context)
+  console.log(context);
   return context;
 }
 function ResponsiveImage( src: Item, width: number) {
