@@ -45,7 +45,7 @@ interface Context { [x: string]: any;};
 
 function importAll(r : Context) {
   const context: Context = {};
-  r.keys().map((item, index) => { context[item.replace('./', '')] = r(item); });
+  r.keys().map((item: string, index: string) => { context[item.replace('./', '')] = r(item); });
   console.log(context);
   return context;
 }
