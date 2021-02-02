@@ -42,30 +42,30 @@ const VideoCard = ({
   { width: 1200, itemsToShow: 1 , slidesToScroll: 1},
 ];
 
-// function importAll(r) {
-//   let images = {};
-//   r.keys().map((item, index) => { images[item.replace('./', '')] = r(item); });
-//   return images;
-// }
-// function ResponsiveImage( src: Item, width: number) {
-//   return (
-//     <div
-//       style={ { 
-//         width,
-//       } }
-//       className="responsive-image">
-//       <div style={ {
-//           paddingBottom: ( 800 / width * 100 ) + '%'
-//         } } />
-//       <img
-//         src={ src }
-//         className="responsive-image__image" />
-//     </div>
-//   );
-// }
+function importAll(r) {
+  let images = {};
+  r.keys().map((item, index) => { images[item.replace('./', '')] = r(item); });
+  return images;
+}
+function ResponsiveImage( src: Item, width: number) {
+  return (
+    <div
+      style={ { 
+        width,
+      } }
+      className="responsive-image">
+      <div style={ {
+          paddingBottom: ( 800 / width * 100 ) + '%'
+        } } />
+      <img
+        src={ src }
+        className="responsive-image__image" />
+    </div>
+  );
+}
 
-// const images = importAll(require.context('../../../../../public/images/polo', false, /\.(png|jpe?g|svg)$/));
-// console.log('eaw',images)
+const images = importAll(require.context('../../../../../public/images/polo', false, /\.(png|jpe?g|svg)$/));
+console.log('eaw',images)
 const whatsMsg = `https://api.whatsapp.com/send?1=pt_BR&phone=5519994229146&text=Olá Pedrão, gostei do ${videoTitle}`
   return (
     <>
