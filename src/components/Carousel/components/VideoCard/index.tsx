@@ -43,13 +43,11 @@ const VideoCard = ({
 ];
 interface Context { [x: string]: any;};
 
-function importAll(r: any) {
-  console.log('r', r)
-  let context = {}
-  r.keys().map((item: string, index: number) => { context[item.replace('./', '')] = r(item); });
-  console.log(context);
-  return context;
-}
+const importAll = (r: __WebpackModuleApi.RequireContext) =>
+	r.keys().map((fileName: string) => ({
+		slug: fileName.substr(2).replace(/\/index\.mdx$/, ''),
+		module: r(fileName)
+	}))
 function ResponsiveImage( src: Item, width: number) {
   return (
     <div
