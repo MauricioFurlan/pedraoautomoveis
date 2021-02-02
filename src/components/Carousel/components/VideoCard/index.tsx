@@ -43,9 +43,10 @@ const VideoCard = ({
 ];
 interface Context { [x: string]: any;};
 
-function importAll(r : Context) {
-  const context: Context = {};
-  r.keys().map((item: string, index: string) => { context[item.replace('./', '')] = r(item); });
+function importAll(r: any) {
+  console.log('r', r)
+  let context = {}
+  r.keys().map((item: string, index: number) => { context[item.replace('./', '')] = r(item); });
   console.log(context);
   return context;
 }
