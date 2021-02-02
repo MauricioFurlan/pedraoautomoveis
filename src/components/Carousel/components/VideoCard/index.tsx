@@ -48,22 +48,22 @@ const importAll = (r: __WebpackModuleApi.RequireContext) =>
 		slug: fileName.substr(2).replace(/\/index\.mdx$/, ''),
 		module: r(fileName)
 	}))
-function ResponsiveImage( src: Item, width: number) {
-  return (
-    <div
-      style={ { 
-        width,
-      } }
-      className="responsive-image">
-      <div style={ {
-          paddingBottom: ( 800 / width * 100 ) + '%'
-        } } />
-      <img
-        src={ src }
-        className="responsive-image__image" />
-    </div>
-  );
-}
+// function ResponsiveImage( src: Item, width: number) {
+//   return (
+//     <div
+//       style={ { 
+//         width,
+//       } }
+//       className="responsive-image">
+//       <div style={ {
+//           paddingBottom: ( 800 / width * 100 ) + '%'
+//         } } />
+//       <img
+//         src={ src }
+//         className="responsive-image__image" />
+//     </div>
+//   );
+// }
 
 const images = importAll(require.context('../../../../../public/images/polo', false, /\.(png|jpe?g|svg)$/));
 console.log('eaw',images)
