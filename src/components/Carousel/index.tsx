@@ -32,6 +32,7 @@ const Carousel = ({
 }) => {
   const categoryTitle = category.title;
   const videos = category.videos;
+  console.log('aews',videos)
   return (
     <VideoCardGroupContainer>
       {categoryTitle && (
@@ -44,7 +45,6 @@ const Carousel = ({
           if (ignoreFirstVideo && index === 0) {
             return null;
           }
-
           return (
             <SliderItem key={video.id}>
               <VideoCard videoTitle={video.title} videoURL={video.url} videoFotos={video.fotos} videoDescrition={video.description} videoPreco={video.preco} videoDestaque={video.destaque}/>

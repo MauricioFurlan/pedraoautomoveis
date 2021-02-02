@@ -46,10 +46,10 @@ export const LogoLink = styled(Link)`
 `;
 
 export const Logo = styled.img`
-max-width: 168px;
+max-width: 568px;
    filter: hue-rotate(354deg) brightness(90%) contrast(99%);
   @media (max-width: 800px) {
-    max-width: 8.2rem;
+    max-width: 15.2rem;
     transform: scale(0.75);
     
     &:hover {
