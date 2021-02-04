@@ -31,7 +31,7 @@ export const NavContainer = styled.nav`
   padding-right: 5%;
 
   background: var(--gray);
-  border-bottom: 2px solid var(--blue);
+  /* border-bottom: 2px solid var(--blue); */
 
   @media (max-width: 800px) {
     height: 50px;

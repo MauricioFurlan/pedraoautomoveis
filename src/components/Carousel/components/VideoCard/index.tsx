@@ -4,7 +4,9 @@ import Carousel from "react-elastic-carousel";
 import Item from "./Item";
 import login from '../../../../assets/login.png';
 import whats from '../../../../assets/whatsapp.svg';
+import { FooterBase } from '../../../Footer/styles';
 import './cars.css'
+import { EditorBorderBottom } from 'material-ui/svg-icons';
 
 interface Item {
   item: string;
@@ -41,7 +43,6 @@ const VideoCard = ({
   { width: 768, itemsToShow: 1, slidesToScroll: 1, },
   { width: 1200, itemsToShow: 1 , slidesToScroll: 1},
 ];
-interface Context { [x: string]: any;};
 
 const importAll = (r: __WebpackModuleApi.RequireContext) =>
 	r.keys().map((fileName: string) => ({
@@ -100,6 +101,7 @@ const whatsMsg = `https://api.whatsapp.com/send?1=pt_BR&phone=5519994229146&text
   <div
   style={ { 
     width: 1200
+
   } }
   className="responsive-image">
   <div style={ {
@@ -112,6 +114,7 @@ const whatsMsg = `https://api.whatsapp.com/send?1=pt_BR&phone=5519994229146&text
           ))}
         </Carousel>
                 <p>{videoDescrition}</p>
+
                 <footer>
                     <p><strong>R${videoPreco}</strong>
                     </p>
@@ -119,8 +122,8 @@ const whatsMsg = `https://api.whatsapp.com/send?1=pt_BR&phone=5519994229146&text
                     <img src={whats} alt="WhatsApp" /> Entrar em contato
                     </a>
                 </footer>
-            </article>
-          </main>
+              </article>
+            </main>
           </ModalContent>
 
         </ModalContainer>
