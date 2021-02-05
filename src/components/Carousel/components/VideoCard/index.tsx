@@ -99,13 +99,14 @@ const whatsMsg = `https://api.whatsapp.com/send?1=pt_BR&phone=5519994229146&text
 
           {img1.map(item => (
   <div
+  
   style={ { 
-    width: 1200
+    width: 800
 
   } }
   className="responsive-image">
   <div style={ {
-      paddingBottom: ( 800 / 1200 * 100 ) + '%'
+      paddingBottom: ( 100 / 100 * 100 ) + '%'
     } } />
   <img
     src={ item }

@@ -30,6 +30,8 @@ export const VideoCardContainer = styled.a`
   flex: 0 0 298px;
   width: 355px;
   height: 200px;
+  display: flex;
+  align-items: flex-end;
   background-image: ${({ url }: { url: string }) => `url(${url})`};
   background-size: cover;
   background-position: center;
@@ -69,14 +71,13 @@ export const VideoCardContainer = styled.a`
 
 export const ModalContent = styled.div`
   background: var(--blue);
-  padding: 15px;
+  padding: 25px;
   border-radius: 14px;
-  width: 900px;
-  height: 600px;
+  width: 50%;
+  height: 99%;
   position: relative;
   overflow: auto;
   outline: none;
-  /* border-bottom: 2px solid rgb(220,0,200); */
   > span {
     position: absolute;
     top: 8px;

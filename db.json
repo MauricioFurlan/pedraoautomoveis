@@ -16,18 +16,18 @@
       "categoryId": 1,
       "id": 1,
       "description": "string",
-      "fotos": ["static/media/polo.0fc4e918.jpeg"],
+      "fotos": ["static/media/polo.0fc4e918.jpeg", "/static/media/polo4.3ded0a33.jpeg"],
       "preco": "15000.00",
       "destaque": "static/media/polo.0fc4e918.jpeg"
     },
     {
-      "title": "asdasdasd-se",
-      "url": "https://www.youtube.com/watch?v=9X0sueSxEsg",
+      "title": "Polo 2018 Highline Preto 30milkm",
+      "url": "https://www.youtube.com/watch?v=9X0sueSxEsg,",
       "categoryId": 2,
       "id": 2,
-      "description": "string",
-      "fotos": ["static/media/polo.0fc4e918.jpeg"],
-      "preco": "15000.00",
+      "description": "Polo 2018 Highline Preto  30.000,00km",
+      "fotos": ["static/media/polo.0fc4e918.jpeg", "/static/media/polo4.3ded0a33.jpeg"],
+      "preco": "65.000,00",
       "destaque": "static/media/polo.0fc4e918.jpeg"
     },
     {
@@ -36,7 +36,7 @@
       "categoryId": 1,
       "id": 3, 
       "description": "string",
-      "fotos": ["static/media/polo.0fc4e918.jpeg"],
+      "fotos": ["static/media/polo.0fc4e918.jpeg", "/static/media/polo4.3ded0a33.jpeg"],
       "preco": "15000.00",
       "destaque": "static/media/polo.0fc4e918.jpeg"
     },
@@ -46,7 +46,7 @@
       "categoryId": 1,
       "id": 4,
       "description": "string",
-      "fotos": ["static/media/polo.0fc4e918.jpeg"],
+      "fotos": ["static/media/polo.0fc4e918.jpeg", "/static/media/polo4.3ded0a33.jpeg"],
       "preco": "15000.00",
       "destaque": "static/media/polo.0fc4e918.jpeg"
     },
@@ -56,7 +56,7 @@
       "categoryId": 2,
       "id": 5,
       "description": "string",
-      "fotos": ["static/media/polo.0fc4e918.jpeg"],
+      "fotos": ["static/media/polo.0fc4e918.jpeg", "/static/media/polo4.3ded0a33.jpeg"],
       "preco": "15000.00",
       "destaque": "static/media/polo.0fc4e918.jpeg"
     },
@@ -66,7 +66,7 @@
       "categoryId": 1,
       "id": 6,
       "description": "string",
-      "fotos": ["static/media/polo.0fc4e918.jpeg"],
+      "fotos": ["static/media/polo.0fc4e918.jpeg", "/static/media/polo4.3ded0a33.jpeg"],
       "preco": "15000.00",
       "destaque": "static/media/polo.0fc4e918.jpeg"
     },
@@ -76,7 +76,7 @@
       "categoryId": 2,
       "id": 7,
       "description": "string",
-      "fotos": ["static/media/polo.0fc4e918.jpeg"],
+      "fotos": ["static/media/polo.0fc4e918.jpeg", "/static/media/polo4.3ded0a33.jpeg"],
       "preco": "15000.00",
       "destaque": "static/media/polo.0fc4e918.jpeg"
     },
@@ -86,7 +86,7 @@
       "categoryId": 1,
       "id": 8,
       "description": "string",
-      "fotos": ["static/media/polo.0fc4e918.jpeg"],
+      "fotos": ["static/media/polo.0fc4e918.jpeg", "/static/media/polo4.3ded0a33.jpeg"],
       "preco": "15000.00",
       "destaque": "static/media/polo.0fc4e918.jpeg"
     },
@@ -96,7 +96,7 @@
       "categoryId": 1,
       "id": 9,
       "description": "string",
-      "fotos": ["static/media/polo.0fc4e918.jpeg"],
+      "fotos": ["static/media/polo.0fc4e918.jpeg", "/static/media/polo4.3ded0a33.jpeg"],
       "preco": "15000.00",
       "destaque": "static/media/polo.0fc4e918.jpeg"
     },
@@ -106,7 +106,7 @@
       "categoryId": 1,
       "id": 11,
       "description": "string",
-      "fotos": ["static/media/polo.0fc4e918.jpeg"],
+      "fotos": ["static/media/polo.0fc4e918.jpeg", "/static/media/polo4.3ded0a33.jpeg"],
       "preco": "15000.00",
       "destaque": "static/media/polo.0fc4e918.jpeg"
     },
@@ -116,7 +116,7 @@
       "categoryId": 2,
       "id": 12,
       "description": "string",
-      "fotos": ["static/media/polo.0fc4e918.jpeg"],
+      "fotos": ["static/media/polo.0fc4e918.jpeg", "/static/media/polo4.3ded0a33.jpeg"],
       "preco": "15000.00",
       "destaque": "static/media/polo.0fc4e918.jpeg"
     },
@@ -126,7 +126,7 @@
       "categoryId": 1,
       "id": 13,
       "description": "string",
-      "fotos": ["static/media/polo.0fc4e918.jpeg"],
+      "fotos": ["static/media/polo.0fc4e918.jpeg", "/static/media/polo4.3ded0a33.jpeg"],
       "preco": "15000.00",
       "destaque": "static/media/polo.0fc4e918.jpeg"
     }
