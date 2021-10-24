@@ -101,7 +101,6 @@ const whatsMsg = `https://api.whatsapp.com/send?1=pt_BR&phone=5519994229146&text
       <img className="responsive-image" src={ item } />
       </div>
       ))}
-          ))}
         </Carousel>
                 <p>{videoDescrition}</p>
 
