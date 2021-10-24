@@ -25,7 +25,7 @@
       "url": "https://www.youtube.com/watch?v=9X0sueSxEsg,",
       "categoryId": 2,
       "id": 2,
-      "description": "Polo 2018 Highline Preto  30.000,00km",
+      "description": "📌- Motor 1.5 \n 📌- Vidros Elétricos \n 📌- Câmbio automático \n 📌- Air Bag \n 📌- Travas elétricas",
       "fotos": ["static/media/polo.0fc4e918.jpeg", "/static/media/polo4.3ded0a33.jpeg"],
       "preco": "65.000,00",
       "destaque": "static/media/polo.0fc4e918.jpeg"
@@ -35,8 +35,8 @@
       "url": "https://www.youtube.com/watch?v=Cpq2pkrVncA",
       "categoryId": 1,
       "id": 3, 
-      "description": "string",
-      "fotos": ["static/media/polo.0fc4e918.jpeg", "/static/media/polo4.3ded0a33.jpeg"],
+      "description": "📌- Motor 1.5 \n 📌- Vidros Elétricos \n 📌- Câmbio automático \n 📌- Air Bag \n 📌- Travas elétricas",
+      "fotos": ["static/media/polo.0fc4e918.jpeg", "/static/media/polo1.53edce2b.jpeg", "/static/media/polo2.c5b069ea.jpeg", "/static/media/polo3.b7ff2f59.jpeg"],
       "preco": "15000.00",
       "destaque": "static/media/polo.0fc4e918.jpeg"
     },
@@ -66,7 +66,7 @@
       "categoryId": 1,
       "id": 6,
       "description": "string",
-      "fotos": ["static/media/polo.0fc4e918.jpeg", "/static/media/polo4.3ded0a33.jpeg"],
+      "fotos": ["static/media/polo.0fc4e918.jpeg", "static/media/polo.0fc4e918.jpeg"],
       "preco": "15000.00",
       "destaque": "static/media/polo.0fc4e918.jpeg"
     },
