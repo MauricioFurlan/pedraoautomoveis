@@ -2,11 +2,13 @@
   background-color: #ddd;
   border: 1px solid #fff;
   border-radius: 0.8rem;
-  margin-top: 2.4rem;
+  margin-top: 0.4rem;
 }
   @media (max-width: 800px) {
     .teacher-item  {
+      padding: 0;
       margin-bottom: 0;
+      margin-top: 0.4rem;
     }
   }
 
@@ -15,14 +17,13 @@
   display: flex;
   align-items: center;
   border-bottom: 2px solid var(--blue);
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 
 }
   @media (max-width: 800px) {
     .teacher-item header {
       margin-top: 0;
-      margin-bottom: 20px;
-
+      margin-bottom: 0;
 
     }
   }
@@ -34,6 +35,15 @@
   border-radius: 50%;
   
 }
+@media (max-width: 800px) {
+  .teacher-item header img {
+    margin-top: 0;
+    display: none;
+    margin-bottom: 0;
+
+  }
+}
+
 
 .teacher-item header div {
   margin-left: 2.4rem;
@@ -50,14 +60,14 @@
 .teacher-item header div span {
   font-size: 1.6rem;
   display: block;
-          border-bottom: 2px solid var(--blue);
+  border-bottom: 2px solid var(--blue);
   margin-top: .4rem;
 }
 
 .teacher-item>p {
   
   padding: 0 2rem;
-  font-size: 1.6rem;
+  font-size: 1.3rem;
   line-height: 2.8rem;
 }
 
@@ -66,14 +76,14 @@
   padding: 3.2rem 2rem;
   background-color: var(--color-box-footer);
   border-top: 1px solid var(--color-line-in-white);
-  margin-top: 3.2rem;
+  margin-top: 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
   @media (max-width: 800px) {
     .teacher-item {
-      padding: 6.5rem 2rem;
+      padding: 0;
       margin-top: 0;
       align-items: center;
       justify-content: space-between;
@@ -95,14 +105,14 @@
 
 .teacher-item footer .button {
   width: 20rem;
-  height: 5.6rem;
+  height: 1.6rem;
   
   background: var(--color-secondary);
   color: var(--color-button-text);
   border: 0;
   border-radius: .8rem;
   cursor: pointer;
-  font: 700 1.4rem Archivo;
+  font: 700 1.6rem Archivo;
 
   display: flex;
   align-items: center;
@@ -124,7 +134,7 @@
 
   .teacher-item header,
   .teacher-item footer {
-    padding: 32px;
+    padding: 1.8rem;
   }
 
   .page-header {
@@ -227,11 +237,9 @@
   @media (max-width: 800px) {
     .responsive-image__image {
     position: absolute;
-
- max-width:100%;
- max-height:100%;
- width: auto;
- height: auto;
-    
+    max-width:100%;
+    max-height:100%;
+    width: auto;
+    height: auto;
     }
   }
