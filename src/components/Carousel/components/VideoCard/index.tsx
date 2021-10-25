@@ -95,12 +95,8 @@ const whatsMsg = `https://api.whatsapp.com/send?1=pt_BR&phone=5519994229146&text
                         <span>Vendido</span>
                     </div>
                 </header>
-          <Carousel 
-          showIndicators={false}
+          <Carousel
           showArrows={false}
-          infiniteLoop={true}
-          transitionTime={200}
-          useKeyboardArrows
           breakPoints={breakPoints}>
           {img1.map(item => (
       <div>
