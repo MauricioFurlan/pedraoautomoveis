@@ -45,6 +45,12 @@
   
 }
 
+@media (max-width: 800px) {
+  .teacher-item header div {
+    margin-left: 0;
+  }
+}
+
 .teacher-item header div strong {
   font: 700 1.7rem Archivo;
   display: block;
@@ -95,7 +101,7 @@
 /* tamanho da imagem */
   @media (max-width: 800px) {
     .teacher-item {
-      padding: 1.2rem 2rem;
+      padding: 1.2rem 0.5rem;
       margin-top: 0;
       align-items: center;
       justify-content: space-between;
@@ -110,7 +116,7 @@
 }
 
 .teacher-item footer p strong {
-  font-size: 1.6rem;
+  font-size: 1.3rem;
   color: var(--color-primary);
   display: block;
 }

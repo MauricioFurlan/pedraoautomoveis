@@ -110,7 +110,7 @@ const whatsMsg = `https://api.whatsapp.com/send?1=pt_BR&phone=5519994229146&text
                     <p><strong>R${videoPreco}</strong>
                     </p>
                     <a href={whatsMsg} className="button" target="_blank">
-                    <img src={whats} alt="WhatsApp" /> Entrar em contato
+                    <img src={whats} alt="WhatsApp" /> Contato
                     </a>
                 </footer>
               </article>
