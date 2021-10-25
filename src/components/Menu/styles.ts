@@ -34,7 +34,7 @@ export const NavContainer = styled.nav`
   /* border-bottom: 2px solid var(--blue); */
 
   @media (max-width: 800px) {
-    height: 50px;
+    height: 60px;
     justify-content: center;
   }
 `;
@@ -49,6 +49,7 @@ export const Logo = styled.img`
 max-width: 568px;
    filter: hue-rotate(354deg) brightness(90%) contrast(99%);
   @media (max-width: 800px) {
+    margin-right: -5px;
     max-width: 15.2rem;
     transform: scale(0.75);
     
