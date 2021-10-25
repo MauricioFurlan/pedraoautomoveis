@@ -6,7 +6,7 @@
 }
   @media (max-width: 800px) {
     .teacher-item  {
-      margin-bottom: 0;
+      margin-bottom: 1;
     }
   }
 
@@ -21,7 +21,7 @@
   @media (max-width: 800px) {
     .teacher-item header {
       margin-top: 0;
-      margin-bottom: 10px;
+      margin-bottom: 2px;
     }
   }
 
@@ -31,6 +31,13 @@
   height: 8rem;
   border-radius: 50%;
   
+}
+@media (max-width: 800px) {
+  .teacher-item header img {
+    margin-top: 0;
+    display: none;
+    margin-bottom: 10px;
+  }
 }
 
 .teacher-item header div {
@@ -46,7 +53,7 @@
 }
 @media (max-width: 800px) {
   .teacher-item header div strong {
-    font: 700 1.1rem Archivo;
+    font: 700 1.4rem Archivo;
     display: block;
     color: var(--color-text-title);
     border-bottom: 2px solid var(--blue);
@@ -64,16 +71,15 @@
   .teacher-item header div span  {
     font-size: 1.0rem;
     display: block;
-    border-bottom: 1px solid var(--blue);
+    border-bottom: 0px solid var(--blue);
     margin-top: .4rem;
   }
 }
 
 .teacher-item>p {
-  
   padding: 0 1rem;
   font-size: 1.3rem;
-  line-height: 2.8rem;
+  line-height: 1.8rem;
 }
 
 .teacher-item footer {
@@ -86,9 +92,10 @@
   align-items: center;
   justify-content: space-between;
 }
+/* tamanho da imagem */
   @media (max-width: 800px) {
     .teacher-item {
-      padding: 6.5rem 2rem;
+      padding: 1.2rem 2rem;
       margin-top: 0;
       align-items: center;
       justify-content: space-between;
