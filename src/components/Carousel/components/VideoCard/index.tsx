@@ -93,7 +93,7 @@ const whatsMsg = `https://api.whatsapp.com/send?1=pt_BR&phone=5519981573022&text
                         alt="Pedrão"/>
                     <div>
                         <strong>{videoTitle}</strong>
-                        <span>Vendido</span>
+                        <span>Disponível</span>
                     </div>
                 </header>
           <Carousel
