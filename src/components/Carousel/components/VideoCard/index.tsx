@@ -66,9 +66,13 @@ const importAll = (r: __WebpackModuleApi.RequireContext) =>
 //   );
 // }
 
-const images = importAll(require.context('../../../../../public/images/polo', false, /\.(png|jpe?g|svg)$/));
-console.log('eaw',images)
-const whatsMsg = `https://api.whatsapp.com/send?1=pt_BR&phone=5519994229146&text=Olá Pedrão, gostei do ${videoTitle}`
+importAll(require.context('../../../../../public/images/fox', false, /\.(png|jpe?g|svg)$/));
+importAll(require.context('../../../../../public/images/jetta', false, /\.(png|jpe?g|svg)$/));
+importAll(require.context('../../../../../public/images/kiwd', false, /\.(png|jpe?g|svg)$/));
+importAll(require.context('../../../../../public/images/renegade', false, /\.(png|jpe?g|svg)$/));
+importAll(require.context('../../../../../public/images/up', false, /\.(png|jpe?g|svg)$/));
+
+const whatsMsg = `https://api.whatsapp.com/send?1=pt_BR&phone=5519981573022&text=Olá Pedrão, gostei do ${videoTitle}`
   return (
     <>
     

@@ -1,5 +1,6 @@
 import React from 'react';
 import { FooterBase } from './styles';
+import { Loader } from "@googlemaps/js-api-loader"
 
 const Footer = () => {
   return (
@@ -8,6 +9,7 @@ const Footer = () => {
         Pedrão Veículos -
         Avenida Visconde de Indaiatuba, 381 Vila Vitória I, Indaiatuba - SP
       </p>
+      
     </FooterBase>
   );
 };

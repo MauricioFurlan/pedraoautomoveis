@@ -19,14 +19,14 @@
           "fotos": ["./asd.png", "./asd.png"]
         },
     {
-      "title": "Polo Highline 2018/2018",
+      "title": "Renault KWID ZEN",
       "url": "https://www.youtube.com/watch?v=9X0sueSxEsg",
       "categoryId": 1,
       "id": 2,
       "description": "Entre em contato conosco para mais informações",
-      "fotos": ["/images/polo/polo.jpeg", "/images/polo/polo1.jpeg", "/images/polo/polo2.jpeg", "/images/polo/polo3.jpeg", "/images/polo/polo4.jpeg", "/images/polo/polo5.jpeg", "/images/polo/polo6.jpeg", "/images/polo/polo7.jpeg", "/images/polo/polo8.jpeg"],
-      "preco": "75.000,00",
-      "destaque": "/images/polo/polo1.jpeg"
+      "fotos": ["/images/kiwd/kiwd1.jpeg", "/images/kiwd/kiwd2.jpeg", "/images/kiwd/kiwd3.jpeg", "/images/kiwd/kiwd4.jpeg", "/images/kiwd/kiwd5.jpeg", "/images/kiwd/kiwd6.jpeg", "/images/kiwd/kiwd7.jpeg", "/images/kiwd/kiwd8.jpeg"],
+      "preco": "46.500,00",
+      "destaque": "/images/kiwd/kiwd1.jpeg"
     },
     {
       "title": "CIVIC LXR 2.0 2013/2014",
