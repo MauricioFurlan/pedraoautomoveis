@@ -1,12 +1,9 @@
 import React, { useState } from 'react';
 import { VideoCardContainer, ModalContent, ModalContainer, Text } from './styles';
 import Carousel from "react-elastic-carousel";
-import Item from "./Item";
 import login from '../../../../assets/login.png';
 import whats from '../../../../assets/whatsapp.svg';
-import { FooterBase } from '../../../Footer/styles';
 import './cars.css'
-import { EditorBorderBottom } from 'material-ui/svg-icons';
 
 interface Item {
   item: string;
