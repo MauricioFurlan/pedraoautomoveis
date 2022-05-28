@@ -37,8 +37,7 @@ const BannerMain = ({
         </ContentAreaContainer.Item>
 
         <ContentAreaContainer.Item>
-          <VideoIframeResponsive youtubeID={youTubeID} />
-          <WatchButton>Assistir</WatchButton>
+          {/* <VideoIframeResponsive youtubeID={youTubeID} /> */}
         </ContentAreaContainer.Item>
       </ContentAreaContainer>
     </BannerMainContainer>
