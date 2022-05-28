@@ -30,6 +30,8 @@ const VideoCard = ({
     );
   };
   const [modalIsOpen, setModalIsOpen] = useState(false);
+  const [arrow, setArrow] = useState(true);
+
   const img1 = videoFotos
   // const image = `https://img.youtube.com/vi/${getYouTubeId(
   //   videoURL,
@@ -68,6 +70,12 @@ importAll(require.context('../../../../../public/images/jetta', false, /\.(png|j
 importAll(require.context('../../../../../public/images/kiwd', false, /\.(png|jpe?g|svg)$/));
 importAll(require.context('../../../../../public/images/renegade', false, /\.(png|jpe?g|svg)$/));
 importAll(require.context('../../../../../public/images/up', false, /\.(png|jpe?g|svg)$/));
+importAll(require.context('../../../../../public/images/astra', false, /\.(png|jpe?g|svg)$/));
+importAll(require.context('../../../../../public/images/onix', false, /\.(png|jpe?g|svg)$/));
+importAll(require.context('../../../../../public/images/hilux', false, /\.(png|jpe?g|svg)$/));
+importAll(require.context('../../../../../public/images/hb20', false, /\.(png|jpe?g|svg)$/));
+importAll(require.context('../../../../../public/images/brasilia', false, /\.(png|jpe?g|svg)$/));
+importAll(require.context('../../../../../public/images/fit', false, /\.(png|jpe?g|svg)$/));
 
 const whatsMsg = `https://api.whatsapp.com/send?1=pt_BR&phone=5519981573022&text=Olá Pedrão, gostei do ${videoTitle}`
   return (
@@ -97,7 +105,7 @@ const whatsMsg = `https://api.whatsapp.com/send?1=pt_BR&phone=5519981573022&text
                     </div>
                 </header>
           <Carousel
-          showArrows={true}
+          showArrows={arrow}
           breakPoints={breakPoints}>
           {img1.map(item => (
       <div>

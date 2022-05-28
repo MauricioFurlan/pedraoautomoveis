@@ -12,13 +12,13 @@
   "videos": [
     {
       "title": "Pedrão Automóveis",
-      "url": "https://www.youtube.com/watch?v=-r6SWQLrPDY",
+      "url": "https://www.youtube.com/watch?v=m12A34xgAQg",
       "categoryId": 1,
       "id": 1,
       "description": "string",
-      "fotos": ["static/media/polo.0fc4e918.jpeg", "/static/media/polo4.3ded0a33.jpeg"],
+      "fotos": ["static/media/kiwd1.4fbe2330.jpeg", "static/media/kiwd1.4fbe2330.jpeg"],
       "preco": "15000.00",
-      "destaque": "static/media/polo.0fc4e918.jpeg"
+      "destaque": "static/media/kiwd1.4fbe2330.jpeg"
     },
     {
       "title": "Renault KWID ZEN",
@@ -66,9 +66,69 @@
       "categoryId": 1,
       "id": 6,
       "description": "➡️2020/2020 \n➡️11.207 KM \n➡️Completo \n➡️Bancos em couro \n➡️Teto solar \n➡️Documentação ok \n➡️Kit multimídia",
-      "fotos": ["static/media/jetta1.f0409c70.jpeg", "static/media/jetta2.41d7b4e9.jpeg", "static/media/jetta3.ca35057c.jpeg"],
+      "fotos": ["static/media/jetta1.f0409c70.jpeg", "static/media/jetta2.41d7b4e9.jpeg", "static/media/jetta3.ca35057c.jpeg", "static/media/jetta4.bec298bf.jpeg", "static/media/jetta5.2d88890f.jpeg", "static/media/jetta6.91243562.jpeg", "static/media/jetta7.15666ece.jpeg", "static/media/jetta8.f9383d46.jpeg", "static/media/jetta9.ff2f75d4.jpeg"],
       "preco": "135.000,00",
       "destaque": "static/media/jetta1.f0409c70.jpeg"
+    },
+    {
+      "title": "Chevrolet ASTRA ADV 2.0 MEC",
+      "url": "https://www.youtube.com/watch?v=kv0iYUeprww",
+      "categoryId": 1,
+      "id": 6,
+      "description": "\n➡️2009/2010 \n➡️BANCOS EM TECIDO \n➡️DOC. 2022 PAGO \n➡️133.600 km",
+      "fotos": ["static/media/astra1.7b427ff2.jpeg", "static/media/astra2.ac32efff.jpeg", "static/media/astra3.3802b1c4.jpeg", "static/media/astra4.e103917b.jpeg", "static/media/astra5.1c1dccb0.jpeg", "static/media/astra6.e2115711.jpeg", "static/media/astra7.e961dfeb.jpeg", "static/media/astra8.64a9e614.jpeg"],
+      "preco": "32.900,00",
+      "destaque": "static/media/astra1.7b427ff2.jpeg"
+    },
+    {
+      "title": "Chevrolet ONIX LTZ 1.4 AUTO",
+      "url": "https://www.youtube.com/watch?v=kv0iYUeprww",
+      "categoryId": 1,
+      "id": 6,
+      "description": "➡️COMPLETO➡️BANCOS EM COURO➡️ONSTAR(assistente pessoal)➡️CÂMERA DE RÉ➡️ PNEUS NOVOS➡️ÚNICO DONO➡️2018/2019➡️89.020KM",
+      "fotos": ["static/media/onix1.6eac3334.jpeg", "static/media/onix2.5ee4ca02.jpeg", "static/media/onix3.8ed592c0.jpeg", "static/media/onix4.a4a3fa66.jpeg", "static/media/onix5.2dba7028.jpeg", "static/media/onix6.7d3b2352.jpeg", "static/media/onix7.c17e94c7.jpeg", "static/media/onix8.e3ae4d77.jpeg", "static/media/onix9.78bba6ef.jpeg"],
+      "preco": "78.000,00",
+      "destaque": "static/media/onix1.6eac3334.jpeg"
+    },
+    {
+      "title": "Toyota HILUX CD 4X4 SRV",
+      "url": "https://www.youtube.com/watch?v=kv0iYUeprww",
+      "categoryId": 1,
+      "id": 6,
+      "description": "➡️3.0 DIESEL➡️AUT. BRANCA➡️2014/2015➡️COMPLETA➡️BANCOS EM COURO(motorista elétrico)➡️MULTIMÍDIA➡️CAPÓTA MARÍTIMA➡️PNEUS NOVOS➡️165.452 KM➡️DOCUMENTAÇÃO OK➡️VEÍCULO ÚNICO DONO",
+      "fotos": ["static/media/hilux1.87e01f90.jpeg", "static/media/hilux2.7726d4ff.jpeg", "static/media/hilux3.b8841a30.jpeg", "static/media/hilux4.628f6737.jpeg", "static/media/hilux5.a308e0ec.jpeg", "static/media/hilux6.b49321ff.jpeg", "static/media/hilux7.f8dd1e5a.jpeg", "static/media/hilux8.e7987033.jpeg", "static/media/hilux9.df00d51f.jpeg", "static/media/hilux10.3335f5ea.jpeg", "static/media/hilux11.22b0ebee.jpeg"],
+      "preco": "185.000,00",
+      "destaque": "static/media/hilux1.87e01f90.jpeg"
+    },
+    {
+      "title": "Hyndai HB20 X STYLE 1.6",
+      "url": "https://www.youtube.com/watch?v=kv0iYUeprww",
+      "categoryId": 1,
+      "id": 6,
+      "description": "➡️MECÂNICO➡️BANCOS EM TECIDO➡️2014/2014➡️124.370 KM",
+      "fotos": ["static/media/hb20_1.7eec51b6.jpeg", "static/media/hb20_2.934b6565.jpeg", "static/media/hb20_3.0a2622b2.jpeg", "static/media/hb20_4.1643f4f6.jpeg", "static/media/hb20_5.6ef2be56.jpeg", "static/media/hb20_6.2a63ca62.jpeg", "static/media/hb20_7.b6f9b6b3.jpeg", "static/media/hb20_8.4bc48119.jpeg"],
+      "preco": "52.500,00",
+      "destaque": "static/media/hb20_1.7eec51b6.jpeg"
+    },
+    {
+      "title": "Wolksvagen Brasília 1600",
+      "url": "https://www.youtube.com/watch?v=kv0iYUeprww",
+      "categoryId": 1,
+      "id": 6,
+      "description": "➡️Gasolina➡️1974/74➡️Carburador único➡️Rodas aros 17 novas➡️Suspensão catracada",
+      "fotos": ["static/media/brasilia1.6fcff8cf.jpeg", "static/media/brasilia2.5dd89be9.jpeg", "static/media/brasilia3.c96f8703.jpeg", "static/media/brasilia4.b32ca7ae.jpeg", "static/media/brasilia5.fd4a6a4a.jpeg", "static/media/brasilia6.6afc79a3.jpeg", "static/media/brasilia7.31707de6.jpeg", "static/media/brasilia8.5ad97c57.jpeg", "static/media/brasilia9.c0cccc0e.jpeg"],
+      "preco": "SOB CONSULTA",
+      "destaque": "static/media/brasilia1.6fcff8cf.jpeg"
+    },
+    {
+      "title": "Honda FIT EX",
+      "url": "https://www.youtube.com/watch?v=kv0iYUeprww",
+      "categoryId": 1,
+      "id": 6,
+      "description": "➡️Motor 1.5 (116cv) flex➡️CÂMBIO AUTOMÁTICO CVT(7 marchas)➡️AZUL➡️44960 KM➡️BANCOS EM TECIDO➡️2018/2019➡️VEÍCULO MUITO BEM CONSERVADO➡️DOCUMENTAÇÃO OK",
+      "fotos": ["static/media/fit1.1826e74c.jpeg", "static/media/fit2.8c3b763a.jpeg", "static/media/fit3.b4f97e7f.jpeg", "static/media/fit4.f83c72cd.jpeg", "static/media/fit5.debddf46.jpeg", "static/media/fit6.dac06fec.jpeg", "static/media/fit7.5a88204d.jpeg", "static/media/fit8.343da19e.jpeg", "static/media/fit9.3db2465c.jpeg", "static/media/fit10.7ada21e4.jpeg"],
+      "preco": "88.500,00",
+      "destaque": "static/media/fit1.1826e74c.jpeg"
     }
   ]
 }
