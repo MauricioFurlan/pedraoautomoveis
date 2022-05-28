@@ -72,9 +72,7 @@ export const VideoCardContainer = styled.a`
 export const ModalContent = styled.div`
   background: var(--blue);
   padding: 25px;
-  border-radius: 14px;
-  width: 50%;
-  height: 99%;
+  width: 62vh;
   position: relative;
   overflow: auto;
   outline: none;

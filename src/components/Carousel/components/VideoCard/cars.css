@@ -205,7 +205,7 @@
 
   .teacher-item>p {
     padding-bottom: 0 32px;
-    margin-top: 0;
+    margin-top: 6px;
     border-top: 2px solid var(--blue);
   }
 
@@ -261,3 +261,11 @@
     height: auto;
     }
   }
+
+.rec.rec-arrow-left:focus:enabled,
+.rec.rec-arrow-right:focus:enabled,
+.rec.rec-arrow-left:hover:enabled,
+.rec.rec-arrow-right:hover:enabled{
+    background-color: var(--blackLighter);
+    box-shadow: 0 0 1px 3px var(--blackLighter);
+}
