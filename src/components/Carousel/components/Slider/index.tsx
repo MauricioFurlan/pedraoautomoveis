@@ -12,7 +12,7 @@ const Slider = ({ children }: { children: React.ReactNode }) => {
       <SlickSlider
         {...{
           dots: false,
-          infinite: true,
+          infinite: false,
           speed: 300,
           centerMode: false,
           variableWidth: true,
