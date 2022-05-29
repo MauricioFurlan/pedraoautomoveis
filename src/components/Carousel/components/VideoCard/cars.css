@@ -269,3 +269,14 @@
     background-color: var(--blackLighter);
     box-shadow: 0 0 1px 3px var(--blackLighter);
 }
+@media (max-width: 800px) {
+  .rec.rec-arrow {
+    font-size: 1.1rem !important;
+    color: white !important;
+    width: 1.7rem !important;
+    height: 1.7rem !important;
+    min-width: 1.7rem !important;
+    line-height: 1.7rem !important;
+  }
+}
+
