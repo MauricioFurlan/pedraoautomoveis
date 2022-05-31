@@ -52,14 +52,14 @@
 }
 
 .teacher-item header div strong {
-  font: 700 1.7rem Archivo;
+  font: 700 1.5rem Archivo;
   display: block;
   color: var(--color-text-title);
   border-bottom: 2px solid var(--blue);
 }
 @media (max-width: 800px) {
   .teacher-item header div strong {
-    font: 700 1.4rem Archivo;
+    font: 700 1.2rem Archivo;
     display: block;
     color: var(--color-text-title);
     border-bottom: 2px solid var(--blue);
