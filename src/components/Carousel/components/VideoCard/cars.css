@@ -173,7 +173,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
 
   }
 
@@ -280,3 +279,9 @@
   }
 }
 
+.textDescription {
+  width:100%;
+	padding:25px 2px 25px;
+	border-radius:3px;
+	font:15px Tahoma, cursive;
+}
