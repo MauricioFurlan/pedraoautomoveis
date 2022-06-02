@@ -85,7 +85,6 @@ export const ModalContent = styled.div`
   }
   @media (max-width: 800px) {
     min-width: 0;
-    padding: 5px;
     > span {
       position: absolute;
       top: 5%;

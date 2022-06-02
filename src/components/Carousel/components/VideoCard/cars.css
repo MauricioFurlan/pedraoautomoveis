@@ -278,10 +278,3 @@
     line-height: 1.7rem !important;
   }
 }
-
-.textDescription {
-  width:100%;
-	padding:25px 2px 25px;
-	border-radius:3px;
-	font:15px Tahoma, cursive;
-}

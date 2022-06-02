@@ -113,7 +113,8 @@ const whatsMsg = `https://api.whatsapp.com/send?1=pt_BR&phone=5519981573022&text
       </div>
       ))}
         </Carousel>
-                <div className="textDescription">{videoDescrition}</div>
+                <p className="textDescription">{videoDescrition}</p>
+
                 <footer>
                     <p><strong>R${videoPreco}</strong>
                     </p>
