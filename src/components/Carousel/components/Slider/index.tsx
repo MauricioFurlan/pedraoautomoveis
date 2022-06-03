@@ -12,19 +12,21 @@ const Slider = ({ children }: { children: React.ReactNode }) => {
       <SlickSlider
         {...{
           dots: false,
-          infinite: false,
+          infinite: true,
           speed: 300,
           centerMode: false,
           variableWidth: true,
           adaptiveHeight: true,
+          slidesToScroll: 1,
+          draggable:false,
           nextArrow: (
             <ArrowContainer>
-              <ArrowIosForwardOutline size={22} color={'var(--arrow)'} />
+              <ArrowIosForwardOutline size={22} color={'var(--blue)'} />
             </ArrowContainer>
           ),
           prevArrow: (
             <ArrowContainer>
-              <ArrowIosBackOutline size={22} color={'var(--arrow)'} />
+              <ArrowIosBackOutline size={22} color={'var(--blue)'} />
             </ArrowContainer>
           ),
         }}

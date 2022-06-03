@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <FooterBase>
       <p>
-        Pedrão Veículos -
+        Pedrão Automóveis -
         Avenida Visconde de Indaiatuba, 381 Vila Vitória I, Indaiatuba - SP
       </p>
       <MapPage></MapPage>

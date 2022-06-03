@@ -40,7 +40,7 @@ export const ArrowContainer = styled.div`
   justify-content: center;
   width: 25px;
   height: 95px !important;
-  background: rgb(211, 211, 211, 0.2);
+  background: rgb(50, 50, 50, 0.5);
   transition: 300ms;
 
   &:hover {
