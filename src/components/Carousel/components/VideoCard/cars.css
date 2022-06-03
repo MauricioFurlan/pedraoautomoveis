@@ -267,6 +267,17 @@
 .rec.rec-arrow-right:hover:enabled{
     background-color: var(--blackLighter);
     box-shadow: 0 0 1px 3px var(--blackLighter);
+    
+}
+.rec.rec-arrow {
+  font-size: 1.1rem !important;
+  color: white !important;
+  width: 1.7rem !important;
+  height: 1.7rem !important;
+  min-width: 0 !important;
+  line-height: 1.7rem !important;
+  padding: 0;
+  margin: 0;
 }
 @media (max-width: 800px) {
   .rec.rec-arrow {
