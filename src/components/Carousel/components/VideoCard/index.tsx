@@ -76,6 +76,7 @@ importAll(require.context('../../../../../public/images/hilux', false, /\.(png|j
 importAll(require.context('../../../../../public/images/hb20', false, /\.(png|jpe?g|svg)$/));
 importAll(require.context('../../../../../public/images/brasilia', false, /\.(png|jpe?g|svg)$/));
 importAll(require.context('../../../../../public/images/fit', false, /\.(png|jpe?g|svg)$/));
+importAll(require.context('../../../../../public/images/amarok', false, /\.(png|jpe?g|svg)$/));
 
 const whatsMsg = `https://api.whatsapp.com/send?1=pt_BR&phone=5519981573022&text=Olá Pedrão, gostei do ${videoTitle}`
   return (
