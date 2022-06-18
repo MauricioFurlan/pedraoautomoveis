@@ -31,16 +31,6 @@
       "destaque": "static/media/kiwd1.4fbe2330.jpeg"
     },
     {
-      "title": "Wolksvagen FOX COFORTLINE 1.6",
-      "url": "https://www.youtube.com/watch?v=Cpq2pkrVncA",
-      "categoryId": 1,
-      "id": 3, 
-      "description": "➡️MECÂNICO \n➡️COMPLETO \n➡️2018 \n➡️80.150 KM \n➡️DOCUMENTAÇÃO 2022 OK",
-      "fotos": ["static/media/fox1.e2e9cb41.jpeg", "static/media/fox2.c90bedeb.jpeg", "static/media/fox3.86ad8455.jpeg", "static/media/fox4.5d9cc9da.jpeg", "static/media/fox5.839809e6.jpeg", "static/media/fox6.498ed216.jpeg", "static/media/fox7.c23000e3.jpeg", "static/media/fox8.4547a82d.jpeg", "static/media/fox9.249fc2c5.jpeg"],
-      "preco": "55.000.00",
-      "destaque": "static/media/fox1.e2e9cb41.jpeg"
-    },
-    {
       "title": "Wolksvagen UP MOVE TSI",
       "url": "https://www.youtube.com/watch?v=Fl6FOI_rqmg",
       "categoryId": 1,
