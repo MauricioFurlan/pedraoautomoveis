@@ -1,7 +1,8 @@
 import React from 'react';
 import { FooterBase, MapImage, Image } from './styles';
-import mapa from '../../assets/map_b.PNG';
-import mapa_c from '../../assets/mapa_c.PNG';
+import mapa from '../../assets/map_b.png';
+import mapa_c from '../../assets/mapa_c.png';
+import MapPage from './MapPage';
 
 function isMobilie() {
   if (navigator.userAgentData.mobile) {
