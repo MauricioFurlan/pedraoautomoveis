@@ -2,7 +2,6 @@ import React from 'react';
 import { VideoCardGroupContainer, Title, SliderItem } from './styles';
 import Slider from './components/Slider';
 import VideoCard from './components/VideoCard';
-import { List } from 'material-ui';
 
 
 interface iVideos {
