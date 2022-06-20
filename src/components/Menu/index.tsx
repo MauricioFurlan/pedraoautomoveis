@@ -26,12 +26,12 @@ const Menu = () => {
           </a>
         </div>
         <div>
-          <a href="https://www.facebook.com/Pedr%C3%A3o-Ve%C3%ADculos-101390304852896/" target="_blank">
+          <a href="https://www.facebook.com/Pedr%C3%A3o-Autom%C3%B3veis-110303973951289" target="_blank">
           <Logo className="Logo" src={facebook} alt="PedãoAutomóveis" />
           </a>
         </div>
            <div>
-          <a href="https://www.instagram.com/pedrao_automoveis/" target="_blank">
+          <a href="https://www.instagram.com/pedrao.automoveis/" target="_blank">
           <Logo className="Logo" src={insta} alt="PedãoAutomóveis" />
           </a>
         </div>
