@@ -119,6 +119,16 @@
       "fotos": ["static/media/amarok1.65aad00f.jpeg", "static/media/amarok2.1700c67e.jpeg", "static/media/amarok3.40bb4c55.jpeg", "static/media/amarok4.0b489469.jpeg", "static/media/amarok5.8d91c6ee.jpeg", "static/media/amarok6.6fabcb47.jpeg", "static/media/amarok7.3c6dc4f3.jpeg", "static/media/amarok8.1b9f9cdb.jpeg", "static/media/amarok9.c530d9e2.jpeg"],
       "preco": "125.000,00",
       "destaque": "static/media/amarok1.65aad00f.jpeg"
+    },
+    {
+      "title": "VW POLO 1.0 MEC.",
+      "url": "https://www.youtube.com/watch?v=kv0iYUeprww",
+      "categoryId": 1,
+      "id": 13,
+      "description": "➡️BANCOS EM TECIDO➡️RODAS EM LIGA LEVE➡️2018/2019➡️ÚNICO DONO➡️DOCUMENTAÇÃO OK➡️105.401 KM",
+      "fotos": ["static/media/polo1.8a5a79a1.jpeg", "static/media/polo2.2dc80b7a.jpeg", "static/media/polo3.36617c7f.jpeg", "static/media/polo4.18ed4123.jpeg", "static/media/polo5.2d6db0c9.jpeg", "static/media/polo6.6e048d1c.jpeg", "static/media/polo7.7f952fac.jpeg", "static/media/polo8.350917b9.jpeg"],
+      "preco": "62.500,00",
+      "destaque": "static/media/polo1.8a5a79a1.jpeg"
     }
   ]
 }

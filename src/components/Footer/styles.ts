@@ -21,7 +21,9 @@ export const MapImage = styled.div`
 `
 
 export const Image = styled.img`
-width: 100%;
+  width: 100%;
   height: 100%;
-
+  @media (max-width: 800px) {
+    margin-bottom: 50px;
+  }
 `
