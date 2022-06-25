@@ -139,6 +139,16 @@
       "fotos": ["static/media/wrv1.db9dd2dd.jpeg", "static/media/wrv2.2e2d2b8e.jpeg", "static/media/wrv3.b6e1e0b2.jpeg", "static/media/wrv4.955f0a33.jpeg", "static/media/wrv5.1d18a160.jpeg", "static/media/wrv6.e6c3e2ee.jpeg", "static/media/wrv7.394e9cdb.jpeg", "static/media/wrv8.7fd717b3.jpeg", "static/media/wrv9.666c92f5.jpeg"],
       "preco": "98.900,00",
       "destaque": "static/media/wrv1.db9dd2dd.jpeg"
+    },
+    {
+      "title": "Saveiro cs 1.6",
+      "url": "https://www.youtube.com/watch?v=kv0iYUeprww",
+      "categoryId": 1,
+      "id": 16,
+      "description": "➡️2014/2014➡️Ar condicionado➡️Direção hidráulica➡️Vidros e travas elétricas➡️Retrovisores elétricos➡️Pneus novos➡️Capóta em fibra➡️Doc. 2022 pago➡️93.656 km",
+      "fotos": ["static/media/saveiro1.626acb84.jpeg", "static/media/saveiro2.1ea06c54.jpeg", "static/media/saveiro3.3aad7641.jpeg", "static/media/saveiro4.421b3801.jpeg", "static/media/saveiro5.6479077d.jpeg", "static/media/wrv6.e6c3e2ee.jpeg", "static/media/saveiro6.2b238672.jpeg", "static/media/saveiro7.ebbacf6a.jpeg", "static/media/saveiro8.8d8611a0.jpeg", "static/media/saveiro9.3367ad75.jpeg"],
+      "preco": "48.000,00",
+      "destaque": "static/media/saveiro1.626acb84.jpeg"
     }
   ]
 }
