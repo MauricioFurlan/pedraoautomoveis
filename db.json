@@ -37,7 +37,7 @@
       "id": 4,
       "description": "➡️Vermelho \n➡️2016/2017 \n➡️Ar condicionado \n➡️Direção hidráulica \n➡️Vidros elétricos \n➡️Travas elétricas \n➡️Som original \n➡️Rodas em liga leve \n 98.734 KM",
       "fotos": ["static/media/up1.d70837c3.jpeg", "static/media/up2.506f8d4f.jpeg", "static/media/up3.43c3642d.jpeg", "static/media/up4.795a91a7.jpeg", "static/media/up5.7bfd6b61.jpeg", "static/media/up6.2a00e232.jpeg", "static/media/up7.afec8e24.jpeg", "static/media/up8.3f06f863.jpeg", "static/media/up9.af481529.jpeg"],
-      "preco": "56.500.00",
+      "preco": "53.500.00",
       "destaque": "static/media/up1.d70837c3.jpeg"
     },
     {
@@ -79,16 +79,6 @@
       "fotos": ["static/media/hilux1.87e01f90.jpeg", "static/media/hilux2.7726d4ff.jpeg", "static/media/hilux3.b8841a30.jpeg", "static/media/hilux4.628f6737.jpeg", "static/media/hilux5.a308e0ec.jpeg", "static/media/hilux6.b49321ff.jpeg", "static/media/hilux7.f8dd1e5a.jpeg", "static/media/hilux8.e7987033.jpeg", "static/media/hilux9.df00d51f.jpeg", "static/media/hilux10.3335f5ea.jpeg", "static/media/hilux11.22b0ebee.jpeg"],
       "preco": "178.000,00",
       "destaque": "static/media/hilux1.87e01f90.jpeg"
-    },
-    {
-      "title": "Hyndai HB20 X STYLE 1.6",
-      "url": "https://www.youtube.com/watch?v=kv0iYUeprww",
-      "categoryId": 1,
-      "id": 10,
-      "description": "➡️MECÂNICO➡️BANCOS EM TECIDO➡️2014/2014➡️124.370 KM",
-      "fotos": ["static/media/hb20_1.7eec51b6.jpeg", "static/media/hb20_2.934b6565.jpeg", "static/media/hb20_3.0a2622b2.jpeg", "static/media/hb20_4.1643f4f6.jpeg", "static/media/hb20_5.6ef2be56.jpeg", "static/media/hb20_6.2a63ca62.jpeg", "static/media/hb20_7.b6f9b6b3.jpeg", "static/media/hb20_8.4bc48119.jpeg"],
-      "preco": "52.500,00",
-      "destaque": "static/media/hb20_1.7eec51b6.jpeg"
     },
     {
       "title": "Wolksvagen Brasília 1600",
