@@ -139,6 +139,16 @@
       "fotos": ["static/media/saveiro1.626acb84.jpeg", "static/media/saveiro2.1ea06c54.jpeg", "static/media/saveiro3.3aad7641.jpeg", "static/media/saveiro4.421b3801.jpeg", "static/media/saveiro5.6479077d.jpeg", "static/media/saveiro6.2b238672.jpeg", "static/media/saveiro7.ebbacf6a.jpeg", "static/media/saveiro8.8d8611a0.jpeg", "static/media/saveiro9.3367ad75.jpeg"],
       "preco": "48.000,00",
       "destaque": "static/media/saveiro1.626acb84.jpeg"
+    },
+    {
+      "title": "YARIS XL PLUS CONNECT",
+      "url": "https://www.youtube.com/watch?v=kv0iYUeprww",
+      "categoryId": 1,
+      "id": 16,
+      "description": "➡️1.5 FLEX AUT.➡️2019/2020➡️BANCOS EM TECIDO ➡️TELA MULTIMÍDIA➡️️VOLANTE MULTI FUNCIONAL➡️DOCUMENTAÇÃO OK➡️29.840KM",
+      "fotos": ["static/media/yaris1.87002bd7.jpeg", "static/media/yaris2.e3c6c511.jpeg", "static/media/yaris3.3c8a63e2.jpeg", "static/media/yaris4.a6e4ffa6.jpeg", "static/media/yaris5.cdec369f.jpeg", "static/media/yaris6.7e57ab66.jpeg", "static/media/yaris7.a9c53259.jpeg", "static/media/yaris8.9194a88f.jpeg", "static/media/yaris9.a33e2cf3.jpeg"],
+      "preco": "87.000,00",
+      "destaque": "static/media/yaris1.87002bd7.jpeg"
     }
   ]
 }

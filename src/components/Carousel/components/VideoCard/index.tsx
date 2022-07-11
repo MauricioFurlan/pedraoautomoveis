@@ -78,6 +78,8 @@ importAll(require.context('../../../../../public/images/amarok', false, /\.(png|
 importAll(require.context('../../../../../public/images/polo', false, /\.(png|jpe?g|svg)$/));
 importAll(require.context('../../../../../public/images/wrv', false, /\.(png|jpe?g|svg)$/));
 importAll(require.context('../../../../../public/images/saveiro', false, /\.(png|jpe?g|svg)$/));
+importAll(require.context('../../../../../public/images/yaris', false, /\.(png|jpe?g|svg)$/));
+
 
 const whatsMsg = `https://api.whatsapp.com/send?1=pt_BR&phone=5519981573022&text=Olá Pedrão, gostei do ${videoTitle}`
   return (
