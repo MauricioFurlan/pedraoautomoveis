@@ -149,6 +149,16 @@
       "fotos": ["static/media/yaris1.87002bd7.jpeg", "static/media/yaris2.e3c6c511.jpeg", "static/media/yaris3.3c8a63e2.jpeg", "static/media/yaris4.a6e4ffa6.jpeg", "static/media/yaris5.cdec369f.jpeg", "static/media/yaris6.7e57ab66.jpeg", "static/media/yaris7.a9c53259.jpeg", "static/media/yaris8.9194a88f.jpeg", "static/media/yaris9.a33e2cf3.jpeg"],
       "preco": "87.000,00",
       "destaque": "static/media/yaris1.87002bd7.jpeg"
+    },
+    {
+      "title": "Fiat Toro Vulcano",
+      "url": "https://www.youtube.com/watch?v=kv0iYUeprww",
+      "categoryId": 1,
+      "id": 16,
+      "description": "➡️2.0 diesel aut.➡️2019/2020➡️Bancos em couro➡️Multimídia (gps)➡️36.487km",
+      "fotos": ["static/media/toro1.87adf490.jpeg", "static/media/toro2.77f45152.jpeg", "static/media/toro3.76a72608.jpeg", "static/media/toro4.3b1d062f.jpeg", "static/media/toro5.5dfece3c.jpeg", "static/media/toro6.a9478a43.jpeg", "static/media/toro7.e9367a86.jpeg", "static/media/toro8.bdbfac97.jpeg"],
+      "preco": "163.500,00",
+      "destaque": "static/media/toro1.87adf490.jpeg"
     }
   ]
 }
