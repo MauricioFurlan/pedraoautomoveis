@@ -76,7 +76,6 @@ importAll(require.context('../../../../../public/images/fit', false, /\.(png|jpe
 importAll(require.context('../../../../../public/images/amarok', false, /\.(png|jpe?g|svg)$/));
 importAll(require.context('../../../../../public/images/polo', false, /\.(png|jpe?g|svg)$/));
 importAll(require.context('../../../../../public/images/wrv', false, /\.(png|jpe?g|svg)$/));
-importAll(require.context('../../../../../public/images/saveiro', false, /\.(png|jpe?g|svg)$/));
 importAll(require.context('../../../../../public/images/yaris', false, /\.(png|jpe?g|svg)$/));
 importAll(require.context('../../../../../public/images/toro', false, /\.(png|jpe?g|svg)$/));
 
