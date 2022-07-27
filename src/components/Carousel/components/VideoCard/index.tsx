@@ -67,7 +67,6 @@ const importAll = (r: __WebpackModuleApi.RequireContext) =>
 
 importAll(require.context('../../../../../public/images/kiwd', false, /\.(png|jpe?g|svg)$/));
 importAll(require.context('../../../../../public/images/up', false, /\.(png|jpe?g|svg)$/));
-importAll(require.context('../../../../../public/images/astra', false, /\.(png|jpe?g|svg)$/));
 importAll(require.context('../../../../../public/images/onix', false, /\.(png|jpe?g|svg)$/));
 importAll(require.context('../../../../../public/images/hilux', false, /\.(png|jpe?g|svg)$/));
 importAll(require.context('../../../../../public/images/hb20', false, /\.(png|jpe?g|svg)$/));
