@@ -31,36 +31,6 @@
       "destaque": "static/media/kiwd1.4fbe2330.jpeg"
     },
     {
-      "title": "Wolksvagen UP MOVE TSI",
-      "url": "https://www.youtube.com/watch?v=Fl6FOI_rqmg",
-      "categoryId": 1,
-      "id": 4,
-      "description": "➡️Vermelho \n➡️2016/2017 \n➡️Ar condicionado \n➡️Direção hidráulica \n➡️Vidros elétricos \n➡️Travas elétricas \n➡️Som original \n➡️Rodas em liga leve \n 98.734 KM",
-      "fotos": ["static/media/up1.d70837c3.jpeg", "static/media/up2.506f8d4f.jpeg", "static/media/up3.43c3642d.jpeg", "static/media/up4.795a91a7.jpeg", "static/media/up5.7bfd6b61.jpeg", "static/media/up6.2a00e232.jpeg", "static/media/up7.afec8e24.jpeg", "static/media/up8.3f06f863.jpeg", "static/media/up9.af481529.jpeg"],
-      "preco": "53.500.00",
-      "destaque": "static/media/up1.d70837c3.jpeg"
-    },
-    {
-      "title": "Chevrolet ONIX LTZ 1.4 AUTO",
-      "url": "https://www.youtube.com/watch?v=kv0iYUeprww",
-      "categoryId": 1,
-      "id": 8,
-      "description": "➡️COMPLETO➡️BANCOS EM COURO➡️ONSTAR(assistente pessoal)➡️CÂMERA DE RÉ➡️ PNEUS NOVOS➡️ÚNICO DONO➡️2018/2019➡️89.020KM",
-      "fotos": ["static/media/onix1.6eac3334.jpeg", "static/media/onix2.5ee4ca02.jpeg", "static/media/onix3.8ed592c0.jpeg", "static/media/onix4.a4a3fa66.jpeg", "static/media/onix5.2dba7028.jpeg", "static/media/onix6.7d3b2352.jpeg", "static/media/onix7.c17e94c7.jpeg", "static/media/onix8.e3ae4d77.jpeg", "static/media/onix9.78bba6ef.jpeg"],
-      "preco": "78.000,00",
-      "destaque": "static/media/onix1.6eac3334.jpeg"
-    },
-    {
-      "title": "Toyota HILUX CD 4X4 SRV",
-      "url": "https://www.youtube.com/watch?v=kv0iYUeprww",
-      "categoryId": 1,
-      "id": 9,
-      "description": "➡️3.0 DIESEL AUT. BRANCA\n➡️2014/2015\n➡️COMPLETA\n➡️BANCOS EM COURO(motorista elétrico)\n➡️MULTIMÍDIA\n➡️CAPÓTA MARÍTIMA\n➡️PNEUS NOVOS\n➡️165.452 KM\n➡️DOCUMENTAÇÃO OK\n➡️VEÍCULO ÚNICO DONO",
-      "fotos": ["static/media/hilux1.87e01f90.jpeg", "static/media/hilux2.7726d4ff.jpeg", "static/media/hilux3.b8841a30.jpeg", "static/media/hilux4.628f6737.jpeg", "static/media/hilux5.a308e0ec.jpeg", "static/media/hilux6.b49321ff.jpeg", "static/media/hilux7.f8dd1e5a.jpeg", "static/media/hilux8.e7987033.jpeg", "static/media/hilux9.df00d51f.jpeg", "static/media/hilux10.3335f5ea.jpeg", "static/media/hilux11.22b0ebee.jpeg"],
-      "preco": "178.000,00",
-      "destaque": "static/media/hilux1.87e01f90.jpeg"
-    },
-    {
       "title": "Wolksvagen Brasília 1600",
       "url": "https://www.youtube.com/watch?v=kv0iYUeprww",
       "categoryId": 1,
@@ -81,16 +51,6 @@
       "destaque": "static/media/fit1.1826e74c.jpeg"
     },
     {
-      "title": "Amarok Trendline",
-      "url": "https://www.youtube.com/watch?v=kv0iYUeprww",
-      "categoryId": 1,
-      "id": 13,
-      "description": "➡️2.0  AUT 4x4.➡️2014/2015.➡️BRANCA.➡️DIESEL.➡️BANCOS EM COURO.➡️286.126KM.➡️DOCUMENTAÇÃO OK.➡️REVISÃO OK.",
-      "fotos": ["static/media/amarok1.65aad00f.jpeg", "static/media/amarok2.1700c67e.jpeg", "static/media/amarok3.40bb4c55.jpeg", "static/media/amarok4.0b489469.jpeg", "static/media/amarok5.8d91c6ee.jpeg", "static/media/amarok6.6fabcb47.jpeg", "static/media/amarok7.3c6dc4f3.jpeg", "static/media/amarok8.1b9f9cdb.jpeg", "static/media/amarok9.c530d9e2.jpeg"],
-      "preco": "125.000,00",
-      "destaque": "static/media/amarok1.65aad00f.jpeg"
-    },
-    {
       "title": "VW POLO 1.0 MEC.",
       "url": "https://www.youtube.com/watch?v=kv0iYUeprww",
       "categoryId": 1,
@@ -101,34 +61,24 @@
       "destaque": "static/media/polo1.8a5a79a1.jpeg"
     },
     {
-      "title": "Wr-V EX CVT",
+      "title": "VW JETTA HIGHLINE AUTO.",
       "url": "https://www.youtube.com/watch?v=kv0iYUeprww",
       "categoryId": 1,
-      "id": 15,
-      "description": "➡️1.5 FLEX➡️BANCOS EM COURO➡️MULTIMÍDIA➡️ÚNICO DONO➡️2019/2020➡️DOCUMENTAÇÃO OK➡️29.994 KM",
-      "fotos": ["static/media/wrv1.db9dd2dd.jpeg", "static/media/wrv2.2e2d2b8e.jpeg", "static/media/wrv3.b6e1e0b2.jpeg", "static/media/wrv4.955f0a33.jpeg", "static/media/wrv5.1d18a160.jpeg", "static/media/wrv6.e6c3e2ee.jpeg", "static/media/wrv7.394e9cdb.jpeg", "static/media/wrv8.7fd717b3.jpeg", "static/media/wrv9.666c92f5.jpeg"],
-      "preco": "98.900,00",
-      "destaque": "static/media/wrv1.db9dd2dd.jpeg"
+      "id": 14,
+      "description": "➡️BANCOS EM COURO➡️RODAS EM LIGA LEVE➡️2015/2016➡️ÚNICO DONO➡️TETO SOLAR➡️DOCUMENTAÇÃO OK➡️89.000 KM",
+      "fotos": ["static/media/jetta1.30c41f8c.jpeg", "static/media/jetta2.a61e28aa.jpeg", "static/media/jetta3.bdec727b.jpeg", "static/media/jetta4.70b9a7a0.jpeg", "static/media/jetta5.2f80b602.jpeg", "static/media/jetta6.d56d8cd6.jpeg", "static/media/jetta7.d3700543.jpeg", "static/media/jetta8.2412f5de.jpeg", "static/media/jetta9.efde787d.jpeg"],
+      "preco": "90.000,00",
+      "destaque": "static/media/jetta1.30c41f8c.jpeg"
     },
     {
-      "title": "YARIS XL PLUS CONNECT",
+      "title": "FORD KA 1.0 SEL",
       "url": "https://www.youtube.com/watch?v=kv0iYUeprww",
       "categoryId": 1,
-      "id": 16,
-      "description": "➡️1.5 FLEX AUT.➡️2019/2020➡️BANCOS EM TECIDO ➡️TELA MULTIMÍDIA➡️️VOLANTE MULTI FUNCIONAL➡️DOCUMENTAÇÃO OK➡️29.840KM",
-      "fotos": ["static/media/yaris1.87002bd7.jpeg", "static/media/yaris2.e3c6c511.jpeg", "static/media/yaris3.3c8a63e2.jpeg", "static/media/yaris4.a6e4ffa6.jpeg", "static/media/yaris5.cdec369f.jpeg", "static/media/yaris6.7e57ab66.jpeg", "static/media/yaris7.a9c53259.jpeg", "static/media/yaris8.9194a88f.jpeg", "static/media/yaris9.a33e2cf3.jpeg"],
-      "preco": "87.000,00",
-      "destaque": "static/media/yaris1.87002bd7.jpeg"
-    },
-    {
-      "title": "Fiat Toro Vulcano",
-      "url": "https://www.youtube.com/watch?v=kv0iYUeprww",
-      "categoryId": 1,
-      "id": 16,
-      "description": "➡️2.0 diesel aut.➡️2019/2020➡️Bancos em couro➡️Multimídia (gps)➡️36.487km",
-      "fotos": ["static/media/toro1.87adf490.jpeg", "static/media/toro2.77f45152.jpeg", "static/media/toro3.76a72608.jpeg", "static/media/toro4.3b1d062f.jpeg", "static/media/toro5.5dfece3c.jpeg", "static/media/toro6.a9478a43.jpeg", "static/media/toro7.e9367a86.jpeg", "static/media/toro8.bdbfac97.jpeg"],
-      "preco": "163.500,00",
-      "destaque": "static/media/toro1.87adf490.jpeg"
+      "id": 14,
+      "description": "➡️BANCOS EM TECIDO➡️2016/2017➡️CINZA➡️DOCUMENTAÇÃO OK➡️112.000 KM",
+      "fotos": ["static/media/ka1.17c7bfd5.jpeg", "static/media/ka2.1eafe9e6.jpeg", "static/media/ka3.d092f43f.jpeg", "static/media/ka4.03e1f725.jpeg", "static/media/ka5.7e161b48.jpeg"],
+      "preco": "46.000,00",
+      "destaque": "static/media/ka1.17c7bfd5.jpeg"
     }
   ]
 }

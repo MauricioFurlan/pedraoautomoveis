@@ -66,17 +66,14 @@ const importAll = (r: __WebpackModuleApi.RequireContext) =>
 // }
 
 importAll(require.context('../../../../../public/images/kiwd', false, /\.(png|jpe?g|svg)$/));
-importAll(require.context('../../../../../public/images/up', false, /\.(png|jpe?g|svg)$/));
-importAll(require.context('../../../../../public/images/onix', false, /\.(png|jpe?g|svg)$/));
-importAll(require.context('../../../../../public/images/hilux', false, /\.(png|jpe?g|svg)$/));
 importAll(require.context('../../../../../public/images/hb20', false, /\.(png|jpe?g|svg)$/));
 importAll(require.context('../../../../../public/images/brasilia', false, /\.(png|jpe?g|svg)$/));
 importAll(require.context('../../../../../public/images/fit', false, /\.(png|jpe?g|svg)$/));
-importAll(require.context('../../../../../public/images/amarok', false, /\.(png|jpe?g|svg)$/));
 importAll(require.context('../../../../../public/images/polo', false, /\.(png|jpe?g|svg)$/));
-importAll(require.context('../../../../../public/images/wrv', false, /\.(png|jpe?g|svg)$/));
-importAll(require.context('../../../../../public/images/yaris', false, /\.(png|jpe?g|svg)$/));
-importAll(require.context('../../../../../public/images/toro', false, /\.(png|jpe?g|svg)$/));
+importAll(require.context('../../../../../public/images/jetta', false, /\.(png|jpe?g|svg)$/));
+const x = importAll(require.context('../../../../../public/images/ka', false, /\.(png|jpe?g|svg)$/));
+console.log('-->x', x);
+
 
 
 const whatsMsg = `https://api.whatsapp.com/send?1=pt_BR&phone=5519981573022&text=Olá Pedrão, gostei do ${videoTitle}`
