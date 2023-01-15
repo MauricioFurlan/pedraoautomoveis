@@ -18,7 +18,7 @@ const Home = () => {
     destaque: string;
     
   }
-
+  console.log('testeeeeeeeeeeeeeeeeeee')
   interface iCategories {
     id: number;
     title: string;
