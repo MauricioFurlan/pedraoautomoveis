@@ -19,7 +19,7 @@ interface ObjectToDelete {
 
 const URL = window.location.hostname.includes('localhost')
   ? 'http://localhost:8080'
-  : 'https://my-json-server.typicode.com/MauricioFurlan/db';
+  : 'https://my-json-server.typicode.com/MauricioFurlan/db/db';
   // https://notflix-fakend.herokuapp.com
 export const getAllCategoriesAsync = async () => {
   const crudeResponse = await fetch(`${URL}/categories`);
